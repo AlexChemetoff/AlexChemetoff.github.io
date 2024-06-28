@@ -299,7 +299,7 @@
   color: #fff;
   text-decoration: none;
 }
-
+/*
 .main__btn:after {
   position: absolute;
   content: '';
@@ -307,18 +307,28 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #72717c;
+  background: #20c626;
   transition: all 0.35s;
   border-radius: 4px;
-}
-
-.main__btn:hover {
-  color: #fff;
 }
 
 .main__btn:hover:after {
   width: 100%;
 }
+*/
+
+.main__btn:hover {
+  color: #fff;
+  transform: scale(1.075);
+transition: 0.2s ease-in;
+cursor: pointer;
+}
+
+
+
+
+
+
 
 .main__img--container {
   text-align: center;

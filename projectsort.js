@@ -1,7 +1,7 @@
 /*
-* Auteur: Ludovic HU
+* Refactored by Ludovic HU
 *
-* Code inspiré de la solution de Sumon Sarker @ https://stackoverflow.com/questions/43037486/dynamic-sorting-of-data-with-html-select-dropdown
+* Code basé sur et inspiré de la solution de Sumon Sarker @ https://stackoverflow.com/questions/43037486/dynamic-sorting-of-data-with-html-select-dropdown
 */
 
 
