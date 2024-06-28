@@ -10,7 +10,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML CSS Website</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./xzoom.css" media="all" />
+    <script type="text/javascript" src="./xzoom.js"></script>
     <!--<link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -23,8 +26,8 @@
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="./" id="navbar__logo"><!--<i class="fas fa-gem">--></i>Bureau des Paysages</a>
-            <a href="./" id="navbar__sublogo"><!--<i class="fas fa-gem">--></i>Alexandre Chemetoff</a>
+            <a href="../" id="navbar__logo"><!--<i class="fas fa-gem">--></i>Bureau des Paysages</a>
+            <a href="../" id="navbar__sublogo"><!--<i class="fas fa-gem">--></i>Alexandre Chemetoff</a>
 
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span> <span class="bar"></span>
@@ -32,26 +35,54 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="./productions.html" class="navbar__links">Productions</a>
+                    <a href="../productions.html" class="navbar__links">Productions</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="./projets.html" class="navbar__links">Projets</a>
+                    <a href="../projets.html" class="navbar__links">Projets</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="./equipe.html" class="navbar__links">Équipe</a>
+                    <a href="../equipe.html" class="navbar__links">Équipe</a>
                 </li>
-                <li class="navbar__btn"><a href="./" class="button">Actualités</a></li>
+                <li class="navbar__btn"><a href="../" class="button">Actualités</a></li>
             </ul>
         </div>
     </nav>
     <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>PRODUCTIONS</h1>
-                <p>Descrition</p>
+        <div class="project__container">
+            <div class="project__content">
+                <h1>NOM PROJET</h1>
+                <p>Descrition:</p>
+                <p>Budget:</p>
+                <p>Surface:</p>
+                <p>Date début:</p>
+                <p>Date fin:</p>
+                <p>Prise en charge:</p>
             </div>
-
         </div>
+
+        <div class="xzoom-container">
+            <div class="titled_image">
+                <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
+                <img class="xzoom" src="./images_projet/pic1.jpg" xoriginal="./images_projet/pic1.jpg" />
+            </div>
+            <div class="xzoom-thumbs">
+                <p>Cliquez sur l'image que vous souhaitez voir.</p>
+                <a href="./images_projet/pic1.jpg">
+                    <img class="xzoom-gallery" width="80" src="./images_projet/pic1.jpg">
+                </a>
+                <a href="./images_projet/pic2.jpg">
+                    <img class="xzoom-gallery" width="80" src="./images_projet/pic2.jpg">
+                </a>
+                <a href="./images_projet/pic3.jpg">
+                    <img class="xzoom-gallery" width="80" src="./images_projet/pic3.jpg">
+                </a>
+                <a href="./images_projet/pic4.jpg">
+                    <img class="xzoom-gallery" width="80" src="./images_projet/pic4.jpg">
+                </a>
+
+            </div>
+        </div>
+
     </div>
 
     <!-- Footer Section -->
@@ -112,7 +143,8 @@
         </section>
     </div>
 
-    <script src="./app.js"></script>
+    <script src="../app.js"></script>
+    <script>$(".xzoom, .xzoom-gallery").xzoom({ tint: '#333', Xoffset: 10, defaultScale: 0.75 });</script>;
 </body>
 
 </html>

@@ -1,0 +1,235 @@
+/* Compatibility styles for frameworks like bootstrap, foundation e.t.c */
+ .xzoom-preview img, .xzoom-lens img {
+  display: block;
+  max-width: none;
+  max-height: none;
+
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.xzoom-source img{
+  display: block;
+  max-width: 640px;
+  max-height: 600px;
+  object-fit: contain;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* --------------- */
+
+/* xZoom Styles below */
+.xzoom-container { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 120vh;
+  background-color: #d8d8d8e2;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+
+.xzoom-thumbs {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.xzoom { 
+
+  max-width: 640px;
+  max-height: 600px;
+  object-fit: contain;
+
+}
+.xzoom2, .xzoom3, .xzoom4, .xzoom5 {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+/* Thumbs */
+.xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+  border: 1px solid #00000000;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+
+.xzoom-source, .xzoom-hidden {
+  display: block;
+  position: static;
+  float: none;
+  clear: both;
+}
+
+/* Everything out of border is hidden */
+.xzoom-hidden {
+  overflow: hidden;
+}
+
+/* Preview */
+.xzoom-preview {
+  border: 1px solid #888;
+  background: #2f4f4f;
+  box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+
+}
+
+/* Lens */
+.xzoom-lens {
+  border: 1px solid #555;
+  box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+  cursor: crosshair;
+
+
+}
+
+/* Loading */
+.xzoom-loading {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  opacity: .7;
+  background: url(../images/xloading.gif);
+  width: 48px;
+  height: 48px;
+}
+
+/* Additional class that applied to thumb when it is active */
+.xactive {
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+  box-shadow: 0px 0px 3px 0px rgba(74,169,210,1); 
+  border: 1px solid #4aaad2;
+}
+
+/* Caption */
+.xzoom-caption {
+  position: relative;
+  bottom: -43px;
+  left: 0;
+  background: #000;
+  width: 100%;
+  text-align: left;
+}
+
+.xzoom-caption span {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+.xzoom-thumbs p {
+  padding: 10px;
+  margin: 10px,10px;
+  font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .xzoom-source img{
+    max-width: 550px;
+  }
+  .xzoom { 
+    max-width: 550px;
+  }
+  .titled_image p {
+    max-width: 550px;
+   }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .xzoom-source img{
+    max-width: 450px;
+  }
+  .xzoom { 
+    max-width: 450px;
+  }
+  .titled_image p {
+    max-width: 450px;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+  .xzoom-source img{
+    max-width: 350px;
+  }
+  .xzoom { 
+    max-width: 350px;
+  }
+  .titled_image p {
+    max-width: 350px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+  .xzoom-source img{
+    max-width: 250px;
+  }
+  .xzoom { 
+    max-width: 250px;
+  }
+  
+  .xzoom-container {
+    display: inline-block;
+  }
+  .titled_image p {
+    max-width: 250px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+  .xzoom-source img{
+    max-width: 200px;
+  }
+  .xzoom { 
+    max-width: 200px;
+  }
+  .titled_image p {
+    max-width: 200px;
+   }
+}
+
+@media screen and (max-height: 700px){
+  .xzoom-source img{
+    max-height: 500px;
+  }
+  .xzoom { 
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-height: 600px){
+  .xzoom-source img{
+    max-height: 400px;
+  }
+  .xzoom { 
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-height: 500px){
+  .xzoom-source img{
+    max-height: 300px;
+  }
+  .xzoom { 
+    max-height: 300px;
+  }
+}
