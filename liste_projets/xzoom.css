@@ -207,6 +207,18 @@
    }
 }
 
+@media screen and (max-width: 480px) {
+  .xzoom-source img{
+    max-width: 160px;
+  }
+  .xzoom { 
+    max-width: 160px;
+  }
+  .titled_image p {
+    max-width: 160px;
+   }
+}
+
 @media screen and (max-height: 700px){
   .xzoom-source img{
     max-height: 500px;
