@@ -208,6 +208,15 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .xzoom-container {
+    padding-left: 25px;
+  }
+
+  .project__container {
+    padding-left: 25px;
+  }
+
   .xzoom-source img{
     max-width: 160px;
   }

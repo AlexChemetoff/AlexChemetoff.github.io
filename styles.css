@@ -553,22 +553,24 @@ cursor: pointer;
   .services__card h2 {
     position: absolute;
     top: 280px;
+    left: 20px;
     font-size: 1rem;
   }
   
   .services__card p {
     position: absolute;
     top: 310px;
-    font-size: 1rem;
+    left: 20px;
+    font-size: 1.5rem;
   }
   
   .services__card a.button {
     position: absolute;
     top: 360px;
-    font-size: 0.8rem;
+    left: 20px;
     width: 130px;
     height: 40px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
 
