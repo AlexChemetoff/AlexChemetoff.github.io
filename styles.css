@@ -559,7 +559,7 @@ cursor: pointer;
   
   .services__card p {
     position: absolute;
-    top: 310px;
+    top: 300px;
     left: 20px;
     font-size: 1rem;
   }
@@ -568,7 +568,7 @@ cursor: pointer;
     position: absolute;
     top: 360px;
     left: 20px;
-    width: 130px;
+    width: 150px;
     height: 40px;
     font-size: 1rem;
   }
