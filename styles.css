@@ -552,6 +552,9 @@ cursor: pointer;
 
 @media screen and (max-width: 480px) {
 
+  .services {
+    height: 152vh;
+  }
 
   .services h1 {
     font-size: 1.2rem;
