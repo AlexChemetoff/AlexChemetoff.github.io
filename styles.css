@@ -565,6 +565,21 @@ cursor: pointer;
     width: 320px;
   }
 
+  .services__card h2 {
+    top: 280px;
+  }
+  
+  .services__card p {
+    top: 320px;
+  }
+  
+  .services__card a.button {
+    top: 360px;
+    font-size: 0.8rem;
+    width: 130px;
+    height: 40px;
+  }
+
 
 }
 
