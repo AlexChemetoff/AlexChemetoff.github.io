@@ -383,21 +383,18 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
-  .main__container {
-  height:120vh;
-  }
 
   .main__content h1 {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .main__content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .main__content p {
-    margin-top: 2rem;
+    margin-top: 6px;
     font-size: 1.5rem;
   }
 
@@ -407,7 +404,7 @@ cursor: pointer;
   }
 
   #main__img {
-    max-width: 60%;
+    max-width: 80%;
  
   }
 }
@@ -538,6 +535,7 @@ cursor: pointer;
 
   .services {
     height: 152vh;
+    justify-content: flex-start;
   }
 
   .services h1 {
@@ -560,8 +558,8 @@ cursor: pointer;
   
   .services__card p {
     position: absolute;
-    top: 320px;
-    font-size: 0.6rem;
+    top: 310px;
+    font-size: 1rem;
   }
   
   .services__card a.button {
@@ -570,7 +568,7 @@ cursor: pointer;
     font-size: 0.8rem;
     width: 130px;
     height: 40px;
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 
 
