@@ -452,7 +452,7 @@ cursor: pointer;
 
 .services__card {
   margin: 1rem;
-  height: 525;
+  height: 525px;
   width: 400px;
   max-width: 100%;
   border-radius: 4px;
@@ -482,7 +482,7 @@ cursor: pointer;
 
 .services__card h2 {
   position: absolute;
-  top: 350px;
+  top: 360px;
   left: 30px;
 }
 
@@ -569,14 +569,17 @@ cursor: pointer;
   }
 
   .services__card h2 {
+    position: absolute;
     top: 280px;
   }
   
   .services__card p {
+    position: absolute;
     top: 320px;
   }
   
   .services__card a.button {
+    position: absolute;
     top: 360px;
     font-size: 0.8rem;
     width: 130px;
