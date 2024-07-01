@@ -11,7 +11,7 @@ var projetsParNoms = {
                   "Maitrise_douvrage":"Client",
                   "Description": "EcrireDescription",
                   "ref":"projet_template.html"},
-    
+
     "VB_Parc_Habité": {"Ville": "Villeurbanne",
       "Date de livraison": "2019-07-XX",
       "Maitrise_douvrage":"OGIC",
