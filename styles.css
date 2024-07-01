@@ -1025,4 +1025,93 @@ text-align: center;
   }
 }
 
+/* Début Modif pour equipes.html */
 
+.employee-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.employee-card {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f8f8f8;
+}
+
+.employee-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.employee-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-card ul li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Début Modif pour index.html */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.main__img--container {
+  width: 100%;
+  height: 100%;
+}
+
+#main__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_btnhome {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Kumbh Sans', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.main_btnhome::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+  margin-top: 5px;
+}
+
+.main_btnhome:hover::after {
+  width: 100%;
+}
+
+.main_btnhome:hover {
+  transform: translate(-50%, -52%);
+  color: rgb(0, 0, 0); /* Change this color to your preferred hover color */
+}
