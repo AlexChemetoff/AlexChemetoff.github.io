@@ -803,6 +803,7 @@ cursor: pointer;
   .liste_projets {
     padding-right: 50px;
     padding-left: 50px;
+    gap:0px 15px;
   }
 
   .controls {
@@ -831,6 +832,7 @@ cursor: pointer;
   .liste_projets {
     padding-right: 20px;
     padding-left: 20px;
+    gap:0px 10px;
   }
 
   .controls {
@@ -840,7 +842,7 @@ cursor: pointer;
 
   .liste_projets .projet #thumbs_img {
     width:132px;
-    height:256px;
+    height:156px;
   }
 
   .projet p {
