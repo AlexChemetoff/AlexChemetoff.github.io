@@ -6,12 +6,7 @@
 
 
 var projetsParNoms = {
-    "Eglise": {"Ville": "New York","Date de livraison": "2008-01-15","Description": "Une belle église.","ref":"projet_template.html"},
-    "Ecole": {"Ville": "Fresnes","Date de livraison": "2012-05-01","Description": "Une petite école.","ref":"projet_template.html"},
-    "Maison": {"Ville": "Saint-mandé","Date de livraison": "2011-08-24","Description": "La maison d'Hector.","ref":"projet_template.html"},
-    "Pont": {"Ville": "Paris","Date de livraison": "2013-03-19","Description": "Pour passer par dessus la Seine.","ref":"projet_template.html"},
-    "Autoroute": {"Ville": "Paris","Date de livraison": "2012-01-10","Description": "Pour aller plus vite.","ref":"projet_template.html"}
-    
+    "NomProjet": {"Ville": "NomVille","Date de livraison": "2000-01-01","Maitrise_douvrage":"Client","Description": "EcrireDescription","ref":"projet_template.html"}
   };
   
   var ProjectArray = Object.keys(projetsParNoms).map(function(v) {
@@ -68,13 +63,16 @@ var projetsParNoms = {
   function display(Data){
     var html = '';
     for(var i=0; i<Data.length;i++){
-      html+='<div class="projet">';
-        html+='<p class="Nom">'+Data[i].Nom+'</p>';
-        html+='<p class="Ville">'+Data[i].Ville+'</p>';
-        html+='<p class="Date de livraison">Livré le: '+Data[i]['Date de livraison']+'</p>';
-        html+='<p class="Description">'+Data[i].Description+'</p>';
-        html+='<a href="./liste_projets/'+Data[i].ref+'" class="project_links">voir plus</a>';
-      html+='</div>';
+      if (Data[i].Nom != 'NomProjet'){
+        html+='<div class="projet">';
+          html+='<p class="Nom">'+Data[i].Nom+'</p>';
+          html+='<p class="Ville">'+Data[i].Ville+'</p>';
+          html+='<p class="Date de livraison">Livré le: '+Data[i]['Date de livraison']+'</p>';
+          html+='<p class="Maitrise_douvrage">Maîtrise d\'ouvrage: '+Data[i].Maitrise_douvrage+'</p>';
+          html+='<p class="Description">'+Data[i].Description+'</p>';
+          html+='<a href="./liste_projets/'+Data[i].ref+'" class="project_links">voir plus</a>';
+        html+='</div>';
+      }
     };
     $('#liste_projets').html(html);
   }
