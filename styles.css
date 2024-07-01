@@ -145,7 +145,7 @@
   }
 
   .navbar__menu.active {
-    background: #d8d8d8e2;
+    background: #fff;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -220,7 +220,7 @@
 
 /* Main Content CSS */
 .main {
-  background-color: #d8d8d8e2;
+  background-color: #fff;
 }
 
 .main__container {
@@ -230,7 +230,9 @@
   justify-self: space-around;
   margin: 0 auto;
   height: 120vh;
-  background-color: #d8d8d8e2;
+
+  background-color: #fff;
+
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -411,7 +413,7 @@ cursor: pointer;
 
 /* Services Section */
 .services {
-  background: #d8d8d8e2;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -714,13 +716,13 @@ cursor: pointer;
   margin: 5px auto;
 
 
-  background: #d8d8d8e2;
+  background: #fff;
   display: flex;
   flex-direction: column;
 
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-  background-color: #d8d8d8e2;
+  background-color: #fff;
   z-index: 1;
 
   padding-right: 100px;
@@ -776,13 +778,13 @@ cursor: pointer;
 
 
 
-  background: #d8d8d8e2;
+  background: #fff;
   display: flex;
   flex-direction: column;
 
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-  background-color: #d8d8d8e2;
+  background-color: #fff;
   z-index: 1;
 
   padding-right: 100px;
@@ -823,7 +825,9 @@ cursor: pointer;
   justify-self: center;
   margin: 0 auto;
   height: 120vh;
-  background-color: #d8d8d8e2;
+
+  background-color: #fff;
+
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -980,7 +984,6 @@ text-align: center;
   }
 }
 
-
 /* Début Modif pour equipes.html */
 
 .employee-section {
@@ -1012,4 +1015,62 @@ text-align: center;
 .employee-card ul li {
   font-size: 1rem;
   margin: 5px 0;
+}
+
+/* Début Modif pour index.html */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.main__img--container {
+  width: 100%;
+  height: 100%;
+}
+
+#main__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_btnhome {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Kumbh Sans', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.main_btnhome::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+  margin-top: 5px;
+}
+
+.main_btnhome:hover::after {
+  width: 100%;
+}
+
+.main_btnhome:hover {
+  transform: translate(-50%, -52%);
+  color: rgb(0, 0, 0); /* Change this color to your preferred hover color */
 }
