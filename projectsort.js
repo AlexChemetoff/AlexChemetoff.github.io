@@ -11,7 +11,7 @@ var projetsParNoms = {
 associe chaque logement à un espace extérieur en pleine terre sur une terrasse, des balcons ou des loggias. Ainsi, chaque appartement s\’ouvre sur le dehors. C\’est cette association des espaces clos et de plein-air qui crée un environnement vivant. Nous avons conçu le plan comme un continuum ou se mêlent des maisons et des jardins. Recherchant le plus possible à abolir la distinction entre les espaces
 intérieurs et extérieurs. Favorisant les adossements, les continuités, les rapprochements. C\’est un petit quartier à l\’échelle des piétons, un jardin habité. La circulation automobile y est limitée à sa plus simple expression et les allées carrossables, accessibles aux véhicules de secours et de service, sont traitées comme les promenades d\’un parc. Les circulations verticales et en particulier les
 escaliers sont, le plus souvent, tournées vers le dehors. Le parcours qui va depuis la rue jusqu\’à chaque appartement est composé d’une succession d’allées, de passages, de cours et de paliers ouverts. Les terrasses sont de nouveaux sols sur lesquels sont édifi ées des maisons ou aménagés des jardins qui couronnent les immeubles.",
-"ref":"VB_Parc_Habite.html"},
+"ref":"VB_Parc_Habite.html"}
   };
   
   var ProjectArray = Object.keys(projetsParNoms).map(function(v) {
