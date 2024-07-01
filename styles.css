@@ -827,6 +827,7 @@ cursor: pointer;
     width: 176px;
   }
 
+
 }
 
 @media screen and (max-width: 480px) {
@@ -857,7 +858,7 @@ cursor: pointer;
     width: 132px;
   }
 
-  .overlay {
+  .projet .overlay {
     opacity: 1;
   }
 }
