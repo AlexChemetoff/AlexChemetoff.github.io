@@ -1069,7 +1069,7 @@ text-align: center;
 
 /* Début Modif pour index.html */
 
-.main {
+.mainhome {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1078,14 +1078,15 @@ text-align: center;
   width: 100%;
   overflow: hidden;
   position: relative;
+  background-color: #fff;
 }
 
-.main__img--container {
+.mainhome__img--container {
   width: 100%;
   height: 100%;
 }
 
-#main__img {
+#mainhome__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
