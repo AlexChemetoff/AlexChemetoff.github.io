@@ -229,15 +229,14 @@
   align-items: center;
   justify-self: space-around;
   margin: 0 auto;
-  height: 120vh;
+  height:auto;;
 
   background-color: #fff;
 
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding:50px;
 
 }
 
@@ -1000,15 +999,22 @@ text-align: center;
 @media screen and (max-width: 960px) {
   .main__container {
     flex-direction: column;
-  }
+    flex-wrap: wrap;
 
-  .main__content {
-    text-align: center;
   }
 
   .cards {
     flex-direction: column;
     align-items: center;
+
+  }
+
+  .card .button {
+    position:relative;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,0%);
+    color:rgb(251, 251, 251);
   }
 
   .card {
@@ -1018,9 +1024,7 @@ text-align: center;
 }
 
 @media screen and (max-width: 480px) {
-  .main__content h1 {
-    font-size: 2rem;
-  }
+
 
   .card h2 {
     font-size: 1rem;
@@ -1080,35 +1084,120 @@ text-align: center;
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-color: #fff;
+  background-color: #ffffffa5;
 }
 
 .mainhome__img--container {
   width: 100%;
   height: 100%;
+  transition: opacity 0.35s ease-in; 
 }
 
 #mainhome__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
 
+.mainhome_title {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.35s ease;
+}
 
 .main_btnhome {
-  font-size: 1.5rem;
-  color: #fff;
+
+  padding: 9px;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+
+}
+.main_btnhome::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.20);
+  z-index: -1;
+  transition: 0.35s ease-in;
+}
+
+.main_btnhome::after {
+  content: attr(data);
+  align-content:center;
+  justify-content:center;
+  text-decoration: none;;
+  font-size: 16px;
+  background: black;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 0.35s ease-in;
+}
+.main_btnhome:hover::before {
+  left: 300px;
+
+}
+.main_btnhome:hover::after{
+  color: rgb(0, 0, 0);
+}
+
+.mainhome a:hover + .mainhome__img--container {
+  opacity:0.2;
+}
+
+.mainhome_title:has(+ a:hover){
+  opacity:1;
+}
+
+/*
+.main_btnhome {
+  background-image: linear-gradient(120deg, #000000 0%, #1a1a1a 50%,#747474 75%,#121212 100%);
+
+  background-image: linear-gradient(120deg, #1a1a1a 0%,#747474 25%,#121212 50%, #000000 100%);
+  
+  color: transparent;
+  background-clip: text;
   text-decoration: none;
+  
   font-family: 'Kumbh Sans', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: all 0.5s ease;
+  -webkit-transition-delay:all 0.5s ease;
+  -moz-transition-delay:all 0.5s ease;
+  -ms-transition-delay:all 0.5s ease;
+  -o-transition-delay:all 0.5s ease;
   padding: 10px 20px;
-  border: none;
   cursor: pointer;
+  background: linear-gradient(to right, #00FFA3, #DC1FFF);
+  border:none;
+  outline:none;
+  border-radius: 10px;
 }
+
+  
 
 .main_btnhome::after {
   content: '';
@@ -1120,11 +1209,31 @@ text-align: center;
   margin-top: 5px;
 }
 
-.main_btnhome:hover::after {
-  width: 100%;
+
+.main_btnhome::after {
+  content: 'Explore →';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -35%);
+
+  width: 100%; height: 100%;
+
+  background-image: linear-gradient(120deg, #1a1a1a 0%,#747474 25%,#121212 50%, #000000 100%);
+
+  opacity: 1;
+  transition: opacity .5s;
 }
 
-.main_btnhome:hover {
-  transform: translate(-50%, -52%);
-  color: rgb(0, 0, 0); /* Change this color to your preferred hover color */
+.main_btnhome:hover::after {
+  opacity:0;
 }
+
+
+
+.main_btnhome:hover {
+
+  transform: translate(0%, -2%);
+}
+
+*/
