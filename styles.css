@@ -737,6 +737,7 @@ cursor: pointer;
   padding: 4px;
   margin: 15px 5px;
   text-align: center;
+  justify-self: center;
 }
 
 .projet .overlay {
@@ -773,7 +774,7 @@ cursor: pointer;
   -webkit-transform: translate(-0%, -50%);
   -ms-transform: translate(-0%, -50%);
   transform: translate(-0%, -50%);
-
+  max-width: 80%;
   text-align: left;
 }
 
@@ -784,8 +785,9 @@ cursor: pointer;
 
   background: #fff;
   display: grid;
+  justify-content: center;
+  /*flex-wrap: wrap;*/
   grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-
   gap:0px 20px;
   background-color: #fff;
   padding-right: 75px;
