@@ -741,7 +741,6 @@ cursor: pointer;
 
   padding-right: 75px;
   padding-left: 75px;
-  justify-content: center;
 }
 
 .projet {
@@ -856,8 +855,6 @@ cursor: pointer;
   }
 
   .controls {
-    flex-direction: column;
-    align-items: center;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -982,24 +979,23 @@ text-align: center;
 
 
 .card p {
-
+  margin: 0;
   padding: 0;
   color: #fff;
-  font-size: 1rem;
-  margin-top: 10px;
-
-
 }
 
 .card h4 {
   font-size: 1.5rem;
   margin-top: 10px;
-  color: #ffff; /* S'assurer que le h4 dans .card est blanc */
-
+  color: #ffff; /* S'assurer que le h2 dans .card est blanc */
 }
 
 
-
+.card p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #fff;
+}
 
 .card .button {
   border: none;
@@ -1009,18 +1005,11 @@ text-align: center;
   margin-top: 10px;
   padding: 10px;
   color: #f9f5f5;
-  position:relative;
-  top:80%;
-  left:0;
-
+  top: 450px;
+  left: 30px;
   font-size: 1rem;
   width: 150px;
   height: 50px;
-}
-
-.card .button:hover{
-  transform: scale(1.05);
-  transition:0.1s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -1042,11 +1031,6 @@ text-align: center;
     left:50%;
     transform:translate(-50%,0%);
     color:rgb(251, 251, 251);
-    
-  }
-
-  .card .button:hover{
-    transform: translate(-50%,0%) scale(1.05);
   }
 
   .card {
@@ -1058,8 +1042,8 @@ text-align: center;
 @media screen and (max-width: 480px) {
 
 
-  .card h4 {
-    font-size: 1.2rem;
+  .card h2 {
+    font-size: 1rem;
   }
 
   .card p {
@@ -1069,12 +1053,7 @@ text-align: center;
   .card .button {
     padding: 8px;
     font-size: 0.8rem;
-    top:90%;
-    width: 120px;
-    height: 40px;
   }
-
-
 }
 
 /* Début Modif pour equipes.html */
@@ -1088,11 +1067,11 @@ text-align: center;
 
 .employee-card {
   width: 80%;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 8px;
   padding: 20px;
   margin: 10px 0;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 .employee-card h2 {
@@ -1109,6 +1088,34 @@ text-align: center;
   font-size: 1rem;
   margin: 5px 0;
 }
+
+/* Styles for the arrow and collapsible list */
+
+.arrow {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+
+.collapsible {
+
+  padding-left: 20px;
+  display: grid;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+.collapsible li {
+  font-size: 1rem;
+  margin: 5px 10px; 
+  width:300px;
+  /*grid-auto-rows: minmax(10px, auto);
+  box-sizing: border-box;*/
+}
+
+
 
 /* Début Modif pour index.html */
 
@@ -1274,3 +1281,4 @@ text-align: center;
 }
 
 */
+
