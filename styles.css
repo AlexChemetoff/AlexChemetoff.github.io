@@ -289,6 +289,19 @@
 
 
 
+.main__content article a {
+
+  color:inherit;
+}
+
+.main__content article:before {
+  content: "";
+  display: block;
+  border: 1px solid grey;
+  width: 100%;
+  margin: 20px auto;
+}
+
 .main__btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #53504f 0%, #262626 100%);
@@ -995,16 +1008,16 @@ img {
 
 @media screen and (max-width: 480px) {
   .card h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .card p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   .card .button {
     padding: 8px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
