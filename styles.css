@@ -979,23 +979,24 @@ text-align: center;
 
 
 .card p {
-  margin: 0;
+
   padding: 0;
   color: #fff;
+  font-size: 1rem;
+  margin-top: 10px;
+
+
 }
 
 .card h4 {
   font-size: 1.5rem;
   margin-top: 10px;
-  color: #ffff; /* S'assurer que le h2 dans .card est blanc */
+  color: #ffff; /* S'assurer que le h4 dans .card est blanc */
+
 }
 
 
-.card p {
-  font-size: 1rem;
-  margin-top: 10px;
-  color: #fff;
-}
+
 
 .card .button {
   border: none;
@@ -1005,11 +1006,18 @@ text-align: center;
   margin-top: 10px;
   padding: 10px;
   color: #f9f5f5;
-  top: 450px;
-  left: 30px;
+  position:relative;
+  top:80%;
+  left:0;
+
   font-size: 1rem;
   width: 150px;
   height: 50px;
+}
+
+.card .button:hover{
+  transform: scale(1.05);
+  transition:0.1s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -1032,6 +1040,10 @@ text-align: center;
     transform:translate(-50%,0%);
     color:rgb(251, 251, 251);
     
+  }
+
+  .card .button:hover{
+    transform: translate(-50%,0%) scale(1.05);
   }
 
   .card {
