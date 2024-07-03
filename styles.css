@@ -996,6 +996,7 @@ img {
     position: relative;
     top: 80%;
     left: 50%;
+
     transform: translate(-50%, 0%);
     color: rgb(251, 251, 251);
   }
@@ -1004,10 +1005,15 @@ img {
     width: 80%;
     margin-bottom: 20px;
   }
+
+  .card p {
+    font-size: 0.6rem;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .card h2 {
+  .card h4 {
     font-size: 0.8rem;
   }
 
@@ -1018,6 +1024,9 @@ img {
   .card .button {
     padding: 8px;
     font-size: 0.6rem;
+    width: 90px;
+    height: 30px;
+    top: 90%;
   }
 }
 
