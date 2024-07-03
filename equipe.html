@@ -36,43 +36,55 @@
     <div class="main__container">
       <div class="main__content">
         <h1>EQUIPE</h1>
-        <p>Description</p>
+        <p>Alexandre Chemetoff, urbaniste-paysagiste-architecte, Pierre Amiot, Malika Hanaïzi, Catherine Pierdet et
+          l’équipe du bureau des paysages.<br /> <br />
+          Nous ne sommes pas une équipe pluridisciplinaire mais plutôt une troupe au sens où l’entendait Jean Dasté
+          lorsqu’il dirigeait la Comédie de Saint-Étienne. Tout se passe comme si le projet était une mise en scène
+          qu’il convenait de préparer, de représenter, de réaliser puis, comme nous le faisons ici, d’en faire le récit.
+          On comprend que nous jouons successivement des rôles différents
+          et qu’à l’intérieur de notre troupe, la distribution est fonction des nécessités du projet lui-même et des
+          savoir-faire des uns et des autres.
+        <p>
       </div>
     </div>
-    <div class="employee-section">
-      <div class="employee-card">
-        <h2>Hier</h2>
-        <span class="arrow" onclick="toggleList('list-1974')">→</span>
-        <ul id="list-1974" class="collapsible">
-          <li>Nom Employé 1</li>
-          <li>Nom Employé 2</li>
-          <li>Nom Employé 3</li>
-          <li>Nom Employé 4</li>
-          <li>Nom Employé 5</li>
-          <li>Nom Emplodddddddddddyé 6</li>
-          <li>Nom Employé 6</li>
-          <li>Nom Employé 6</li>
-          <li>Nom Employé 6</li>
-          <li>Nom Employé 6</li>
-          <li>Nom Employé 6</li>
-        </ul>
-      </div>
-      <div class="employee-card">
-        <h2>Aujourd'hui</h2>
-        <span class="arrow" onclick="toggleList('list-2024')">→</span>
-        <ul id="list-2024" class="collapsible">
-          <li>Nom Employé 1</li>
-          <li>Nom Employé 2</li>
-          <li>Nom Employé 3</li>
-          <li>Nom Employé 4</li>
-          <li>Nom Employé 5</li>
-          <li>Nom Employé 6</li>
-          <li>Nom Employé 7</li>
-          
-        </ul>
-      </div>
+    <div class="main__img--container">
+      <img id="main__img" src="images/pic1.jpg" />
     </div>
   </div>
+  <div class="employee-section">
+    <div class="employee-card">
+      <h2>L'équipe</h2>
+      <span class="arrow" onclick="toggleList('list-1974')">→</span>
+      <ul id="list-1974" class="collapsible">
+        <li>Nom Employé 1</li>
+        <li>Nom Employé 2</li>
+        <li>Nom Employé 3</li>
+        <li>Nom Employé 4</li>
+        <li>Nom Employé 5</li>
+        <li>Nom Emplodddddddddddyé 6</li>
+        <li>Nom Employé 6</li>
+        <li>Nom Employé 6</li>
+        <li>Nom Employé 6</li>
+        <li>Nom Employé 6</li>
+        <li>Nom Employé 6</li>
+      </ul>
+    </div>
+    <div class="employee-card">
+      <h2>Ceux qui sont passés par là</h2>
+      <span class="arrow" onclick="toggleList('list-2024')">→</span>
+      <ul id="list-2024" class="collapsible">
+        <li>Nom Employé 1</li>
+        <li>Nom Employé 2</li>
+        <li>Nom Employé 3</li>
+        <li>Nom Employé 4</li>
+        <li>Nom Employé 5</li>
+        <li>Nom Employé 6</li>
+        <li>Nom Employé 7</li>
+
+      </ul>
+    </div>
+  </div>
+
 
   <div class="footer__container">
     <div class="footer__links">
@@ -124,12 +136,13 @@
       }
     }
 
-    document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll(".collapsible").forEach(function(list) {
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".collapsible").forEach(function (list) {
         list.style.display = "none";
       });
     });
   </script>
+  <script src="app.js"></script>
 </body>
 
 </html>

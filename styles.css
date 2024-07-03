@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .navbar {
@@ -44,7 +44,7 @@
   text-decoration: none;
   font-size: 2rem;
 }
-  
+
 #navbar__sublogo {
   background-color: #fef0efc9;
   background-image: linear-gradient(to top, #201f1f5b 0%, #a49f9fb7 100%);
@@ -220,6 +220,7 @@
 /* Main Content CSS */
 .main {
   background-color: #fff;
+  display: flex;
 }
 
 .main__container {
@@ -228,40 +229,33 @@
   align-items: center;
   justify-self: space-around;
   margin: 0 auto;
-  height:auto;;
+  height: fit-content;
 
   background-color: #fff;
 
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding:50px;
-
+  padding: 50px;
 }
-
-
 
 .main__content {
   color: #000000;
   width: 100%;
 }
 
-
-
 .main__img--container {
   text-align: center;
-  
+  padding-right: 15px;
+  padding-top:100px;
 }
 
 #main__img {
   object-fit: contain;
   max-width: 100%;
-  max-height: 160vh;
-  height:auto;
-
+  max-height: 50vh;
+  height: auto;
 }
-
-
 
 .main__content h1 {
   font-size: 4rem;
@@ -288,11 +282,12 @@
 
 .main__content p {
   margin-top: 6px;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #0000005f;
+  font-size: 1.2rem;
 
+  color: #000;
 }
+
+
 
 .main__btn {
   font-size: 1rem;
@@ -335,22 +330,27 @@
 .main__btn:hover {
   color: #fff;
   transform: scale(1.075);
-transition: 0.1s ease-in;
-cursor: pointer;
+  transition: 0.1s ease-in;
+  cursor: pointer;
 }
-
 
 /* Mobile Responsive */
 
-
 @media screen and (max-width: 960px) {
-  .main__container {
+  .main {
+    flex-direction: column;
+  }
 
+  .main__container {
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    margin: 0 auto;
+    margin: 0 0;
+  }
 
+  .main__img--container{
+    padding-right:0px;
+    padding-top:0px;
   }
 
   .main__content {
@@ -369,21 +369,17 @@ cursor: pointer;
 
   .main__content p {
     margin-top: 6px;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
+    text-align: left;
   }
-
-
 
   #main__img {
-    max-height: 90vh;
+    max-height: 40vh;
     max-width: 80%;
-
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
   .main__content h1 {
     font-size: 2rem;
     margin-top: 2rem;
@@ -395,7 +391,7 @@ cursor: pointer;
 
   .main__content p {
     margin-top: 6px;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 
   .main__btn {
@@ -405,7 +401,6 @@ cursor: pointer;
 
   #main__img {
     max-width: 80%;
- 
   }
 }
 
@@ -436,7 +431,6 @@ cursor: pointer;
   -moz-text-fill-color: transparent;
   margin: 4rem 1.5rem;
   font-size: 2.5rem;
-
 }
 
 .services__container {
@@ -444,7 +438,7 @@ cursor: pointer;
   justify-content: center;
   flex-wrap: wrap;
   max-height: 120vh;
-  flex-grow:2;
+  flex-grow: 2;
 }
 
 .services__card {
@@ -458,7 +452,7 @@ cursor: pointer;
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/pic3.jpg');
+    url("/images/pic3.jpg");
   background-size: cover;
   position: relative;
   color: #fff;
@@ -474,7 +468,7 @@ cursor: pointer;
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url('/images/pic4.jpg');
+    url("/images/pic4.jpg");
 }
 
 .services__card h2 {
@@ -510,29 +504,21 @@ cursor: pointer;
   cursor: pointer;
 }
 
-
-
 @media screen and (max-width: 880px) {
-
   .services {
     height: 190vh;
     justify-content: flex-start;
   }
 
-
-  
   .services h1 {
     font-size: 2rem;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
-
   .services {
     height: 152vh;
     justify-content: flex-start;
@@ -541,11 +527,10 @@ cursor: pointer;
   .services h1 {
     font-size: 1.2rem;
     margin-top: 12rem;
-
   }
-  
+
   .services__card {
-    margin: 0.80rem;
+    margin: 0.8rem;
     height: 420px;
     width: 320px;
   }
@@ -556,14 +541,14 @@ cursor: pointer;
     left: 20px;
     font-size: 1rem;
   }
-  
+
   .services__card p {
     position: absolute;
     top: 300px;
     left: 20px;
     font-size: 1rem;
   }
-  
+
   .services__card a.button {
     position: absolute;
     top: 360px;
@@ -572,8 +557,6 @@ cursor: pointer;
     height: 40px;
     font-size: 1rem;
   }
-
-
 }
 
 /* Footer CSS */
@@ -600,12 +583,10 @@ cursor: pointer;
   max-width: 1000px;
   display: flex;
   justify-content: center;
-
 }
 
 .footer__link--wrapper {
   display: flex;
-
 }
 
 .footer__link--items {
@@ -654,7 +635,7 @@ cursor: pointer;
 .social__media--wrap {
   display: flex;
   justify-content: center;
-  gap:20px;
+  gap: 20px;
   align-items: center;
   width: 90%;
   max-width: 1000px;
@@ -691,7 +672,6 @@ cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: left;
-
   }
 
   #footer__logo {
@@ -712,7 +692,6 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
-
   .footer__links {
     font-size: 0.9rem;
   }
@@ -731,7 +710,7 @@ cursor: pointer;
 
   background: #fff;
   display: flex;
-  gap:15px;
+  gap: 15px;
 
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
@@ -743,7 +722,7 @@ cursor: pointer;
 }
 
 .projet {
-  position:relative;
+  position: relative;
   width: 220px;
   /*
   border: 1px solid black;
@@ -763,8 +742,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-
+  transition: 0.5s ease;
 }
 
 .projet:hover .overlay {
@@ -773,7 +751,6 @@ cursor: pointer;
 }
 
 .projet:hover #thumbs_img {
-
   opacity: 0.35;
   transition: 0.2s ease-in;
   cursor: pointer;
@@ -792,35 +769,30 @@ cursor: pointer;
   text-align: left;
 }
 
-
 .liste_projets {
-
   width: 100%;
 
   background: #fff;
   display: grid;
   justify-content: center;
   /*flex-wrap: wrap;*/
-  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-  gap:0px 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0px 20px;
   background-color: #fff;
   padding-right: 75px;
   padding-left: 75px;
-
 }
 
 .liste_projets .projet #thumbs_img {
-
-  width:220px;
-  height:260px;
+  width: 220px;
+  height: 260px;
 }
-
 
 @media screen and (max-width: 960px) {
   .liste_projets {
     padding-right: 50px;
     padding-left: 50px;
-    gap:0px 15px;
+    gap: 0px 15px;
   }
 
   .controls {
@@ -829,8 +801,8 @@ cursor: pointer;
   }
 
   .liste_projets .projet #thumbs_img {
-    width:176px;
-    height:208px;
+    width: 176px;
+    height: 208px;
   }
 
   .projet p {
@@ -839,18 +811,16 @@ cursor: pointer;
   }
 
   .projet {
-    position:relative;
+    position: relative;
     width: 176px;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
   .liste_projets {
     padding-right: 20px;
     padding-left: 20px;
-    gap:0px 10px;
+    gap: 0px 10px;
   }
 
   .controls {
@@ -859,18 +829,18 @@ cursor: pointer;
   }
 
   .liste_projets .projet #thumbs_img {
-    width:132px;
-    height:156px;
+    width: 132px;
+    height: 156px;
   }
 
   .projet p {
     color: #000;
     font-size: 10px;
-    left:110%;
+    left: 110%;
   }
 
   .projet {
-    position:relative;
+    position: relative;
     width: 132px;
   }
 
@@ -879,22 +849,18 @@ cursor: pointer;
   }
 }
 
-
-
 .project__container {
   display: flex;
-
 
   justify-self: center;
   margin: 0px auto;
   height: auto;
-  padding:15px 50px;
+  padding: 15px 50px;
   background-color: #fff;
 
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-
 }
 
 .project__content {
@@ -904,7 +870,7 @@ cursor: pointer;
 
 @media screen and (max-width: 960px) {
   .project__content {
-    font-size: 0.90rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -913,11 +879,9 @@ cursor: pointer;
   justify-content: space-between;
   text-align: justify;
   align-items: center;
-  width:100%;
-  background: #A0C5E8;
-
+  width: 100%;
+  background: #a0c5e8;
 }
-
 
 img {
   max-width: 100%;
@@ -925,21 +889,18 @@ img {
 }
 
 .titled_image {
-  display:flex;
+  display: flex;
   flex-direction: column;
-
 }
 
 .titled_image p {
- font-size: 15px;
-text-align: center;
- max-width: 640px;
- margin-bottom: 5px;
+  font-size: 15px;
+  text-align: center;
+  max-width: 640px;
+  margin-bottom: 5px;
 }
 
-
 /* Modifications Hector Css pour la page de productions */
-
 
 .cards {
   display: flex;
@@ -964,18 +925,15 @@ text-align: center;
   position: absolute;
   bottom: 0;
   background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.6) 100%
-    );
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  );
 
-    
-    
   color: #fff;
   width: 100%;
   padding: 20px;
 }
-
 
 .card p {
   margin: 0;
@@ -988,7 +946,6 @@ text-align: center;
   margin-top: 10px;
   color: #ffff; /* S'assurer que le h2 dans .card est blanc */
 }
-
 
 .card p {
   font-size: 1rem;
@@ -1015,21 +972,19 @@ text-align: center;
   .main__container {
     flex-direction: column;
     flex-wrap: wrap;
-
   }
 
   .cards {
     flex-direction: column;
     align-items: center;
-
   }
 
   .card .button {
-    position:relative;
-    top:80%;
-    left:50%;
-    transform:translate(-50%,0%);
-    color:rgb(251, 251, 251);
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: rgb(251, 251, 251);
   }
 
   .card {
@@ -1039,8 +994,6 @@ text-align: center;
 }
 
 @media screen and (max-width: 480px) {
-
-
   .card h2 {
     font-size: 1rem;
   }
@@ -1097,24 +1050,20 @@ text-align: center;
   display: inline-block;
 }
 
-
 .collapsible {
-
   padding-left: 20px;
   display: grid;
-  gap:10px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .collapsible li {
   font-size: 1rem;
-  margin: 5px 10px; 
-  width:300px;
+  margin: 5px 10px;
+  width: 300px;
   /*grid-auto-rows: minmax(10px, auto);
   box-sizing: border-box;*/
 }
-
-
 
 /* Début Modif pour index.html */
 
@@ -1133,18 +1082,16 @@ text-align: center;
 .mainhome__img--container {
   width: 100%;
   height: 100%;
-  transition: opacity 0.35s ease-in; 
+  transition: opacity 0.35s ease-in;
 }
 
 #mainhome__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 
 .mainhome_title {
-
   font-size: 24px;
   font-weight: bold;
   position: absolute;
@@ -1157,7 +1104,6 @@ text-align: center;
 }
 
 .main_btnhome {
-
   padding: 9px;
   border: none;
   outline: none;
@@ -1169,7 +1115,6 @@ text-align: center;
 
   background: transparent;
   cursor: pointer;
-
 }
 
 .main_btnhome::before {
@@ -1180,18 +1125,17 @@ text-align: center;
   top: 0px;
   bottom: 0px;
 
-
   background-color: rgba(126, 126, 126, 0.541);
-  
+
   z-index: -1;
   transition: 0.35s ease-in;
 }
 
 .main_btnhome::after {
   content: attr(data);
-  align-content:center;
-  justify-content:center;
-  text-decoration: none;;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
   font-size: 32px;
 
   background: rgb(0, 0, 0);
@@ -1202,18 +1146,17 @@ text-align: center;
 
 .main_btnhome:hover::before {
   left: 500px;
-
 }
-.main_btnhome:hover::after{
+.main_btnhome:hover::after {
   color: rgb(0, 0, 0);
 }
 
 .mainhome a:hover + .mainhome__img--container {
-  opacity:0.2;
+  opacity: 0.2;
 }
 
-.mainhome_title:has(+ a:hover){
-  opacity:1;
+.mainhome_title:has(+ a:hover) {
+  opacity: 1;
 }
 
 /*
@@ -1284,4 +1227,3 @@ text-align: center;
 }
 
 */
-
