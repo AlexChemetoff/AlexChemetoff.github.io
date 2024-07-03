@@ -23,6 +23,15 @@ var projetsParNoms = {
     miniature: "VB_Parc_Habite/IMG_2958.jpg",
   },
 
+  BordeauxUrbain: {
+    Ville: "Bordeaux",
+    "Date de livraison": "2012-01-01",
+    Maitrise_douvrage: "CUB",
+    Categorie: "urbain",
+    ref: "bordeaux_urbain.html",
+    miniature: "./bordeaux_urbain/bd1.PNG",
+  },
+
   Eglise: {
     Ville: "New York",
     "Date de livraison": "2008-01-15",

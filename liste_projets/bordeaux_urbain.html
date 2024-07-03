@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+	  Site created by Ludovic HU
+
+      original "index.html" and "styles.css" based on website by Brian Design on youtube @ www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./xzoom.css" media="all" />
+    <script type="text/javascript" src="./xzoom.js"></script>
+    <!--<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../projets.html" id="navbar__logo"><!--<i class="fas fa-gem">--></i>Bureau des paysages</a>
+            <a href="../projets.html" id="navbar__sublogo"><!--<i class="fas fa-gem">--></i>Alexandre Chemetoff</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../productions.html" class="navbar__links">Productions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../projets.html" class="navbar__links">Projets</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../equipe.html" class="navbar__links">Équipe</a>
+                </li>
+                <li class="navbar__btn"><a href="../" class="button">Actualités</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="xzoom-container">
+        <div class="titled_image">
+            <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
+            <img class="xzoom" src="./images_projet/bordeaux_urbain/bd1.PNG"
+                xoriginal="./images_projet/bordeaux_urbain/bd1.PNG" />
+        </div>
+        <div class="xzoom-thumbs">
+            <p>Cliquez sur l'image que vous souhaitez voir.</p>
+            <a href="./images_projet/bordeaux_urbain/bd1.PNG">
+                <img class="xzoom-gallery" width="80" src="./images_projet/bordeaux_urbain/bd1.PNG">
+            </a>
+            <a href="./images_projet/bordeaux_urbain/bd2.PNG">
+                <img class="xzoom-gallery" width="80" src="./images_projet/bordeaux_urbain/bd2.PNG">
+            </a>
+            <a href="./images_projet/bordeaux_urbain/bd3.PNG">
+                <img class="xzoom-gallery" width="80" src="./images_projet/bordeaux_urbain/bd3.PNG">
+            </a>
+        </div>
+    </div>
+
+    <div class="project__container">
+        <div class="project__content">
+            <h1><strong>DES TERRITOIRES HABITÉS<br />COMMUNAUTÉ URBAINE DE BORDEAUX</strong></h1>
+            <p><strong>Budget:</strong> 3€ </p>
+            <p><strong>Surface:</strong>120m² </p>
+            <p><strong>Date début:</strong> 2010</p>
+            <p><strong>Date fin:</strong> 2012</p>
+            <p><strong>Maîtrise d'ouvrage:</strong> CUB</p>
+            <p><strong>Co-traitant(s):</strong> Alexandre Chemetoff & associés</p>
+            <p><strong>Description:</strong><br />La grande ville, dans sa diversité même, est un lieu de ressource. L’agglomération bordelaise, soit un millième de la surface de la France pour un centième de la population du pays, est riche de nuances géographiques particulières. L’objectif du million d’habitants d’ici 2025 risque d’entraîner une perte d’identité des territoires communautaires.  Comment tirer avantage de ses qualités pour qu’elles soient partagées par un plus grand nombre ? Le terme “situations construites” désigne à la fois notre démarche, notre prise de position et nos propositions à la mesure de cet enjeu métropolitain. <br /> Chacun d’entre nous habite en ville d’une manière différente. On n’habite pas seulement un logement de type T1, T2 ou T3, mais un lieu, la possibilité d’être nombreux à certains moments, seul à d’autres, de travailler chez soi ; on habite une qualité de lumière, un rapport avec un environnement proche et lointain, un jardin, un cabanon, le chemin qui mène à sa maison, la lisière d’un bois, la proximité d’une station de transports en commun, de commerces, un horizon. Chacun doit pouvoir transformer son cadre de vie, en construisant une pièce en plus, en doublant la surface initiale de l’appartement ou encore en imaginant, au fil du temps, un habitat évolutif. Dans l’agglomération bordelaise, des situations construites offrent la liberté de  vivre que certains vont chercher plus loin, là où les règles sont moins strictes et les prix plus abordables. <br />Faut-il redouter que cette appropriation fabrique une ville hétérogène et diverse ? <br />Au contraire, nous imaginons un lieu de vie à son goût et selon ses moyens.</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--items">
+                <h2>ATELIER DE PARIS</h2>
+                <a>35, rue Vergniaud</a>
+                <a>75013 Paris</a>
+                <a>T/ +33 (0)1 46 15 86 30</a>
+                <a>bdp@alexandrechemetoff.com</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>ATELIER DE NANCY</h2>
+                <a>Le Tilleul Argenté</a>
+                <a>17, rue Laurent Bonnevay</a>
+                <a>54000 Meurthe-et-Moselle</a>
+                <a>T/ +33 (0)3 83 96 31 65</a>
+                <a>atelier.ncy@alexandrechemetoff.com</a>
+            </div>
+
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <p class="website__rights">© Bureau des paysages 2024. All rights reserved</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="../app.js"></script>
+    <script>$(".xzoom, .xzoom-gallery").xzoom({ tint: '#333', Xoffset: 10, defaultScale: -0.05 });</script>;
+</body>
+
+</html>
