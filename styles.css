@@ -1031,6 +1031,7 @@ text-align: center;
     left:50%;
     transform:translate(-50%,0%);
     color:rgb(251, 251, 251);
+    
   }
 
   .card {
@@ -1042,8 +1043,8 @@ text-align: center;
 @media screen and (max-width: 480px) {
 
 
-  .card h2 {
-    font-size: 1rem;
+  .card h4 {
+    font-size: 1.2rem;
   }
 
   .card p {
@@ -1053,7 +1054,12 @@ text-align: center;
   .card .button {
     padding: 8px;
     font-size: 0.8rem;
+    top:90%;
+    width: 120px;
+    height: 40px;
   }
+
+
 }
 
 /* Début Modif pour equipes.html */
