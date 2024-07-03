@@ -5,7 +5,7 @@
  */
 
 var projetsParNoms = {
-  NomProjet: {
+  "NomProjet": {
     Ville: "NomVille",
     "Date de livraison": "2000-01-01",
     Maitrise_douvrage: "Client",
@@ -14,7 +14,7 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
-  VB_Parc_Habité: {
+  "Villeurbanne Parc Habité": {
     Ville: "Villeurbanne",
     "Date de livraison": "2019-07-XX",
     Maitrise_douvrage: "OGIC",
@@ -23,7 +23,7 @@ var projetsParNoms = {
     miniature: "VB_Parc_Habite/IMG_2958.jpg",
   },
 
-  BordeauxUrbain: {
+  "Bordeaux Zone Urbaine": {
     Ville: "Bordeaux",
     "Date de livraison": "2012-01-01",
     Maitrise_douvrage: "CUB",
