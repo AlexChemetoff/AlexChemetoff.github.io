@@ -998,6 +998,11 @@ img {
     color: rgb(251, 251, 251);
   }
 
+  .card a:hover {
+    transform: translate(-50%, 0%) scale(1.05);
+    transition: 0.1s ease;
+  }
+
   .card {
     width: 80%;
     margin-bottom: 20px;
