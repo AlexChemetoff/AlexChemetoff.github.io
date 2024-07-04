@@ -14,6 +14,15 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Gentilly": {
+    Ville: "Gentilly",
+    "Date de livraison": "1993-01-01",
+    Maitrise_douvrage: "Bureau des paysages ",
+    Categorie: "Réhabilitation et extension du siège social et des bureaux",
+    ref: "gentilly.html",
+    miniature: "Gentilly/Gentilly1.png",
+  },
+
   "Villeurbanne Parc Habité": {
     Ville: "Villeurbanne",
     "Date de livraison": "2019-07-XX",
