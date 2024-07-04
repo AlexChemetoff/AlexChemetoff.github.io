@@ -1113,7 +1113,7 @@ img {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -1126,7 +1126,7 @@ img {
   border: none;
   outline: none;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -1134,7 +1134,7 @@ img {
   background: transparent;
   cursor: pointer;
 }
-
+/*
 .main_btnhome::before {
   content: "";
   position: absolute;
@@ -1148,23 +1148,24 @@ img {
   z-index: -1;
   transition: 0.35s ease-in;
 }
+.main_btnhome:hover::before {
+  left: 500px;
+}
 
+*/
 .main_btnhome::after {
   content: attr(data);
   align-content: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 32px;
-
+  font-size: 64px;
   background: rgb(0, 0, 0);
   -webkit-background-clip: text;
   color: transparent;
   transition: 0.35s ease-in;
 }
 
-.main_btnhome:hover::before {
-  left: 500px;
-}
+
 .main_btnhome:hover::after {
   color: rgb(0, 0, 0);
 }
@@ -1177,71 +1178,14 @@ img {
   opacity: 1;
 }
 
-/*
-.main_btnhome {
-  background-image: linear-gradient(120deg, #000000 0%, #1a1a1a 50%,#747474 75%,#121212 100%);
-
-  background-image: linear-gradient(120deg, #1a1a1a 0%,#747474 25%,#121212 50%, #000000 100%);
-  
-  color: transparent;
-  background-clip: text;
-  text-decoration: none;
-  
-  font-family: 'Kumbh Sans', sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.5s ease;
-  -webkit-transition-delay:all 0.5s ease;
-  -moz-transition-delay:all 0.5s ease;
-  -ms-transition-delay:all 0.5s ease;
-  -o-transition-delay:all 0.5s ease;
-  padding: 10px 20px;
-  cursor: pointer;
-  background: linear-gradient(to right, #00FFA3, #DC1FFF);
-  border:none;
-  outline:none;
-
+@media screen and (max-width: 960px) {
+  .main_btnhome::after {
+    font-size: 48px;
+  }
 }
 
-  
-
-.main_btnhome::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #fff;
-  transition: width 0.3s;
-  margin-top: 5px;
+@media screen and (max-width: 480px) {
+  .main_btnhome::after {
+    font-size: 32px;
+  }
 }
-
-
-.main_btnhome::after {
-  content: 'Explore →';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-40%, -35%);
-
-  width: 100%; height: 100%;
-
-  background-image: linear-gradient(120deg, #1a1a1a 0%,#747474 25%,#121212 50%, #000000 100%);
-
-  opacity: 1;
-  transition: opacity .5s;
-}
-
-.main_btnhome:hover::after {
-  opacity:0;
-}
-
-
-
-.main_btnhome:hover {
-
-  transform: translate(0%, -2%);
-}
-
-*/
