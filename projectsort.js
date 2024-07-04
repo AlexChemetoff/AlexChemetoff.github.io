@@ -11,6 +11,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
@@ -20,7 +21,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "Bureau des paysages ",
     Categorie: "Réhabilitation et extension du siège social et des bureaux",
     ref: "gentilly.html",
-    miniature: "Gentilly/Gentilly1.png",
+    miniature: "Gentilly/Gentilly3.png",
   },
 
   "Villeurbanne Parc Habité": {
@@ -29,7 +30,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "OGIC",
     Categorie: "urbain",
     ref: "VB_Parc_Habite.html",
-    miniature: "VB_Parc_Habite/IMG_2958.jpg",
+    miniature: "VB_Parc_Habite/IMG_2958_cropped.jpg",
   },
 
   "Bordeaux Zone Urbaine": {
@@ -41,41 +42,6 @@ var projetsParNoms = {
     miniature: "./bordeaux_urbain/bd1.PNG",
   },
 
-  Eglise: {
-    Ville: "New York",
-    "Date de livraison": "2008-01-15",
-    Categorie: "urbain",
-    ref: "projet_template.html",
-    miniature: "template_images/pic1.jpg",
-  },
-  Ecole: {
-    Ville: "Fresnes",
-    "Date de livraison": "2012-05-01",
-    Categorie: "equipement",
-    ref: "projet_template.html",
-    miniature: "template_images/pic2.jpg",
-  },
-  Maison: {
-    Ville: "Saint-mandé",
-    "Date de livraison": "2011-08-24",
-    Categorie: "public",
-    ref: "projet_template.html",
-    miniature: "template_images/pic3.jpg",
-  },
-  Pont: {
-    Ville: "Paris",
-    "Date de livraison": "2013-03-19",
-    Categorie: "logement",
-    ref: "projet_template.html",
-    miniature: "template_images/pic4.jpg",
-  },
-  Autoroute: {
-    Ville: "Paris",
-    "Date de livraison": "2012-01-10",
-    Categorie: "public",
-    ref: "projet_template.html",
-    miniature: "template_images/pic1.jpg",
-  },
 };
 
 var ProjectArray = Object.keys(projetsParNoms).map(function (v) {
