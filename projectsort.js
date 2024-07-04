@@ -39,7 +39,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "CUB",
     Categorie: "Public",
     ref: "bordeaux_urbain.html",
-    miniature: "./bordeaux_urbain/bd1.PNG",
+    miniature: "Gentilly/Gentilly3.png",
   },
   "Gentilly1": {
     Ville: "Gentilly",
@@ -47,7 +47,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "Bureau des paysages ",
     Categorie: "Equipement",
     ref: "gentilly.html",
-    miniature: "Gentilly/Gentilly3.png",
+    miniature: "template_images/pic3.PNG",
   },
 
   "Villeurbanne Parc Habité1": {
@@ -56,7 +56,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "OGIC",
     Categorie: "Urbain",
     ref: "VB_Parc_Habite.html",
-    miniature: "VB_Parc_Habite/IMG_2958_cropped.jpg",
+    miniature: "template_images/pic2.PNG",
   },
 
   "Bordeaux Zone Urbaine1": {
@@ -65,34 +65,9 @@ var projetsParNoms = {
     Maitrise_douvrage: "CUB",
     Categorie: "Public",
     ref: "bordeaux_urbain.html",
-    miniature: "./bordeaux_urbain/bd1.PNG",
-  },
-  "Gentilly2": {
-    Ville: "Gentilly",
-    "Date de livraison": "1993-01-01",
-    Maitrise_douvrage: "Bureau des paysages ",
-    Categorie: "Equipement",
-    ref: "gentilly.html",
-    miniature: "Gentilly/Gentilly3.png",
+    miniature: "./template_images/pic1.PNG",
   },
 
-  "Villeurbanne Parc Habité2": {
-    Ville: "Villeurbanne",
-    "Date de livraison": "2019-07-XX",
-    Maitrise_douvrage: "OGIC",
-    Categorie: "Urbain",
-    ref: "VB_Parc_Habite.html",
-    miniature: "VB_Parc_Habite/IMG_2958_cropped.jpg",
-  },
-
-  "Bordeaux Zone Urbaine2": {
-    Ville: "Bordeaux",
-    "Date de livraison": "2012-01-01",
-    Maitrise_douvrage: "CUB",
-    Categorie: "Public",
-    ref: "bordeaux_urbain.html",
-    miniature: "./bordeaux_urbain/bd1.PNG",
-  },
 
 };
 
