@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Les Allonnes": {
+    Ville: "Allonnes",
+    "Date de livraison": "2005-XX-XX",
+    Maitrise_douvrage: "Sarthe Habitat, Ville d’Allonnes, Communauté Urbaine du Mans",
+    Categorie: "Rues et jardins",
+    ref: "allonnes.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    miniature: "./allonnes_images/ALLONNES1.JPG",
+  },
+
   "Les Morins": {
     Ville: "Antony",
     "Date de livraison": "1982-XX-XX",
