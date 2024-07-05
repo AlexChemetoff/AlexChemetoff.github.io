@@ -1089,6 +1089,21 @@ img {
   box-sizing: border-box;*/
 }
 
+.collapsible1 {
+  padding-left: 20px;
+  display: grid;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.collapsible1 li {
+  font-size: 1rem;
+  margin: 5px 10px;
+  width: 300px;
+  /*grid-auto-rows: minmax(10px, auto);
+  box-sizing: border-box;*/
+}
+
 /* Début Modif pour index.html */
 
 .mainhome {
@@ -1112,8 +1127,8 @@ img {
 #mainhome__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  background-image:url("liste_projets/images_projet/VB_Parc_Habite/IMG_2958.jpg");
+  object-fit: cover;/*
+  background-image:url("liste_projets/images_projet/VB_Parc_Habite/IMG_2958.jpg");*/
   background-size: cover;
 }
 
@@ -1127,6 +1142,7 @@ img {
   text-align: center;
   opacity: 0;
   transition: 0.35s ease;
+  cursor:default;
 }
 
 .main_btnhome {
@@ -1179,11 +1195,14 @@ img {
 }
 
 .mainhome a:hover + .mainhome__img--container {
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
 .mainhome_title:has(+ a:hover) {
   opacity: 1;
+  z-index: 1;
+  color:black;
+  -webkit-text-fill-color: #000;
 }
 
 @media screen and (max-width: 960px) {
@@ -1196,8 +1215,8 @@ img {
   .main_btnhome::after {
     font-size: 32px;
   }
-
+/*
   #mainhome__img {
    background-image:url(./images/AC_gifADF.gif);
-  }
+  }*/
 }
