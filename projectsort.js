@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Les Morins": {
+    Ville: "Antony",
+    "Date de livraison": "1982-XX-XX",
+    Maitrise_douvrage: "OPHLM Antony ",
+    Categorie: "Rues et jardins",
+    ref: "morins.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    miniature: "./morins/alm1.jpg",
+  },
+
   "Gentilly": {
     Ville: "Gentilly",
     "Date de livraison": "1993-01-01",
@@ -40,32 +50,6 @@ var projetsParNoms = {
     Categorie: "Rues et jardins",
     ref: "bordeaux_urbain.html",
     miniature: "Gentilly/Gentilly3.png",
-  },
-  "Gentilly1": {
-    Ville: "Gentilly",
-    "Date de livraison": "1993-01-01",
-    Maitrise_douvrage: "Bureau des paysages ",
-    Categorie: "Activités",
-    ref: "gentilly.html",
-    miniature: "template_images/pic3.PNG",
-  },
-
-  "Villeurbanne Parc Habité1": {
-    Ville: "Villeurbanne",
-    "Date de livraison": "2019-07-XX",
-    Maitrise_douvrage: "OGIC",
-    Categorie: "Projets urbains",
-    ref: "VB_Parc_Habite.html",
-    miniature: "template_images/pic2.PNG",
-  },
-
-  "Bordeaux Zone Urbaine1": {
-    Ville: "Bordeaux",
-    "Date de livraison": "2012-01-01",
-    Maitrise_douvrage: "CUB",
-    Categorie: "Rues et jardins",
-    ref: "bordeaux_urbain.html",
-    miniature: "./template_images/pic1.PNG",
   },
 
 
