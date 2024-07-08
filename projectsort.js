@@ -15,6 +15,26 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Bègles": {
+    Ville: "Bègles",
+    "Date de livraison": "2019-XX-XX",
+    Maitrise_douvrage: "EPA Bordeaux Euratlantique",
+    Categorie: "Projets urbains",
+    ref: "begles.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    miniature: "./begles/begles1.png",
+  },
+
+  "Arcueil": {
+    Ville: "Arcueil",
+    "Date de livraison": "1997-XX-XX",
+    Maitrise_douvrage: "SEMASEP",
+    Categorie: "Rues et jardins",
+    ref: "arcueil.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    miniature: "./arcueil/arcueil1.jpg",
+  },
+
   "Les Allonnes": {
     Ville: "Allonnes",
     "Date de livraison": "2005-XX-XX",
