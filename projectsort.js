@@ -22,7 +22,7 @@ var projetsParNoms = {
     Categorie: "Activités",
     ref: "versailles_potager.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
-    miniature: "./versailles_potager/Vrs01_Insertion_00",
+    miniature: "./versailles_potager/Vrs01_Insertion_00.jpg",
   },
 
   "Les Allonnes": {
