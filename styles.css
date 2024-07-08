@@ -303,6 +303,15 @@
   margin: 20px auto;
 }
 
+.main__content h2:before {
+  content: "";
+  display: block;
+  border: 1px solid grey;
+  width: 100%;
+  margin: 20px auto;
+}
+
+
 .main__btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #53504f 0%, #262626 100%);
@@ -871,6 +880,10 @@
 .project__content {
   color: #000000;
   width: 100%;
+}
+
+.project__content h1 {
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 960px) {
