@@ -11,7 +11,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
@@ -21,7 +21,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "EPA Bordeaux Euratlantique",
     Categorie: "Projets urbains",
     ref: "begles.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./begles/begles1.png",
   },
 
@@ -31,8 +31,18 @@ var projetsParNoms = {
     Maitrise_douvrage: "SEMASEP",
     Categorie: "Rues et jardins",
     ref: "arcueil.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./arcueil/arcueil1.jpg",
+  },
+
+  "ENS de Paysage de Versailles": {
+    Ville: "Versailles",
+    "Date de livraison": "2019-XX-XX",
+    Maitrise_douvrage: "ENS de Paysage de Versailles",
+    Categorie: "Activités",
+    ref: "versailles_potager.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./versailles_potager/Vrs01_Insertion_00.jpg",
   },
 
   "Les Allonnes": {
@@ -41,7 +51,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "Sarthe Habitat, Ville d’Allonnes, Communauté Urbaine du Mans",
     Categorie: "Rues et jardins",
     ref: "allonnes.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./allonnes_images/ALLONNES1.JPG",
   },
 
@@ -51,7 +61,7 @@ var projetsParNoms = {
     Maitrise_douvrage: "OPHLM Antony ",
     Categorie: "Rues et jardins",
     ref: "morins.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./morins/alm1.jpg",
   },
 
@@ -170,21 +180,21 @@ function display(Data) {
       html += '<div class="projet">';
 
       html +=
-        '<img id="thumbs_img" src="./liste_projets/images_projet/'+ Data[i].miniature +'">';
-        html += '<a href="./liste_projets/' +
+        '<img id="thumbs_img" src="./liste_projets/images_projet/' + Data[i].miniature + '">';
+      html += '<a href="./liste_projets/' +
         Data[i].ref +
         '"><div class="overlay">';
-        html += '<p><strong>' + Data[i].Nom + "</strong><br />";
-        html += Data[i].Ville + "<br />";
-        html +=
-          'Livré le: ' +
-          Data[i]["Date de livraison"] +
-          "<br />";
-        html +=
-          'Maîtrise d\'ouvrage: ' +
-          Data[i].Maitrise_douvrage +
-          "<br />";
-        html += 'Catégorie: ' + Data[i].Categorie + "</p>";
+      html += '<p><strong>' + Data[i].Nom + "</strong><br />";
+      html += Data[i].Ville + "<br />";
+      html +=
+        'Livré le: ' +
+        Data[i]["Date de livraison"] +
+        "<br />";
+      html +=
+        'Maîtrise d\'ouvrage: ' +
+        Data[i].Maitrise_douvrage +
+        "<br />";
+      html += 'Catégorie: ' + Data[i].Categorie + "</p>";
       html += "</div></a>";
       html += "</div>";
 
