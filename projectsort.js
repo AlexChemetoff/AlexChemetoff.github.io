@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Angoulême": {
+    Ville: "Angoulême",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: "SEGECE (pour le centre commercial, le parking et les logements)",
+    Categorie: "Activités",
+    ref: "angouleme.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./angouleme/angouleme1.jpg",
+  },
+
   "Bègles": {
     Ville: "Bègles",
     "Date de livraison": "2019-XX-XX",
