@@ -52,22 +52,22 @@
     <div class="xzoom-container">
         <div class="titled_image">
             <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
-            <img class="xzoom" src="./images_projet/template_images/pic1.jpg"
-                xoriginal="./images_projet/template_images/pic1.jpg" />
+            <img class="xzoom" src="./images_projet/versailles_potager/Vrs01_Insertion_00.jpg"
+                xoriginal="./images_projet/versailles_potager/Vrs01_Insertion_00.jpg" />
         </div>
         <div class="xzoom-thumbs">
             <p>Cliquez sur l'image que vous souhaitez voir.</p>
-            <a href="./images_projet/template_images/pic1.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic1.jpg">
+            <a href="./images_projet/versailles_potager/Vrs01_Insertion_00.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/versailles_potager/Vrs01_Insertion_00.jpg">
             </a>
-            <a href="./images_projet/template_images/pic2.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic2.jpg">
+            <a href="./images_projet/versailles_potager/Vrs01_Insertion_01.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/versailles_potager/Vrs01_Insertion_01.jpg">
             </a>
-            <a href="./images_projet/template_images/pic3.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic3.jpg">
+            <a href="./images_projet/versailles_potager/Vrs01_Insertion_03.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/versailles_potager/Vrs01_Insertion_03.jpg">
             </a>
-            <a href="./images_projet/template_images/pic4.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic4.jpg">
+            <a href="./images_projet/versailles_potager/P1010502.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/versailles_potager/P1010502.jpg">
             </a>
 
         </div>
@@ -75,14 +75,14 @@
 
     <div class="project__container">
         <div class="project__content">
-            <h1><strong>NOM PROJET</strong></h1>
-            <p><strong>Budget:</strong> 1€ </p>
-            <p><strong>Surface:</strong> 1m² </p>
-            <p><strong>Date début:</strong> 1 </p>
-            <p><strong>Date fin:</strong> 1 </p>
-            <p><strong>Maîtrise d'ouvrage:</strong> 1 </p>
-            <p><strong>Co-traitant(s):</strong> 1 </p>
-            <p><strong>Description:</strong><br /> 1 </p>
+            <h1><strong>Réhabilitation du bâtiment des suisses au potager du roi pour l'école nationale supérieure du paysage (Versailles)</strong></h1>
+            <p><strong>Budget:</strong> 850 000€ HT </p>
+            <p><strong>Surface:</strong> 643m² (planchers) et 400m² (extérieurs) </p>
+            <p><strong>Date début:</strong> ? </p>
+            <p><strong>Date fin:</strong> ? </p>
+            <p><strong>Maîtrise d'ouvrage:</strong> Ecole Nationale Supérieure de Paysage de Versailles </p>
+            <p><strong>Co-traitant(s):</strong> Alexandre Chemetoff & associés </p>
+            <p><strong>Description:</strong><br /> à compléter </p>
         </div>
     </div>
 
