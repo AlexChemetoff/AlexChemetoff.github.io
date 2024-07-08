@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+    "ENS de Paysage de Versailles": {
+    Ville: "Versailles",
+    "Date de livraison": "2019-XX-XX",
+    Maitrise_douvrage: "ENS de Paysage de Versailles",
+    Categorie: "Activités",
+    ref: "versailles_potager.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */ 
+    miniature: "./versailles_potager/Vrs01_Insertion_00",
+  },
+
   "Les Allonnes": {
     Ville: "Allonnes",
     "Date de livraison": "2005-XX-XX",
