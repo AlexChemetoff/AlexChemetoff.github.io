@@ -248,6 +248,10 @@
   width: 100%;
 }
 
+.main__content ul {
+  flex-direction: column;
+}
+
 .main__img--container {
   text-align: center;
   padding-right: 15px;
@@ -301,6 +305,7 @@
   border: 1px solid grey;
   width: 100%;
   margin: 20px auto;
+
 }
 
 .main__content h2:before {
