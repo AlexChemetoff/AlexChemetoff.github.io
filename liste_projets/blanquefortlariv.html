@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+	  Site created by Ludovic HU
+
+      original "index.html" and "styles.css" based on website by Brian Design on youtube @ www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./xzoom.css" media="all" />
+    <script type="text/javascript" src="./xzoom.js"></script>
+    <!--<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    /> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic%7CRaleway%3A800&ver=1.0" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../projets.html" id="navbar__logo"><!--<i class="fas fa-gem">--></i>bureau des paysages</a>
+            <a href="../projets.html" id="navbar__sublogo"><!--<i class="fas fa-gem">--></i>Alexandre Chemetoff</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../projets.html" class="navbar__links">Projets</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../editions.html" class="navbar__links">Éditions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../equipe.html" class="navbar__links">Équipe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="xzoom-container">
+        <div class="titled_image">
+            <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
+            <img class="xzoom" src="./images_projet/blanquefortlariv/blanquefortlariv1.jpg"
+                xoriginal="./images_projet/blanquefortlariv/blanquefortlariv1.jpg" />
+        </div>
+        <div class="xzoom-thumbs">
+            <p>Cliquez sur l'image que vous souhaitez voir.</p>
+            <a href="./images_projet/blanquefortlariv/blanquefortlariv1.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/blanquefortlariv/blanquefortlariv1.jpg">
+            </a>
+            <a href="./images_projet/blanquefortlariv/blanquefortlariv2.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/blanquefortlariv/blanquefortlariv2.jpg">
+            </a>
+            <a href="./images_projet/blanquefortlariv/blanquefortlariv3.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/blanquefortlariv/blanquefortlariv3.jpg">
+            </a>
+            <a href="./images_projet/blanquefortlariv/blanquefortlariv4.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/blanquefortlariv/blanquefortlariv4.jpg">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="project__container">
+        <div class="project__content">
+            <h1><strong>LA RIVIÈRE <br /> Blanquefort (33)</strong></h1>
+            <p><strong>Budget:</strong> 10 619 000€ HT</p>
+            <p><strong>Surface SHON, Surface aménagée:</strong> 9740 m², 20 000 m² </p>
+            <p><strong>Date début:</strong> 2006 </p>
+            <p><strong>Date fin:</strong> 2009 </p>
+            <p><strong>Maîtrise d'ouvrage:</strong> SEMI de Blanquefort </p>
+            <p><strong>Co-traitant(s):</strong> Atelier Alexandre Chemetoff<br /> <br /></p>
+            <p><strong>Description:</strong><br /> <br /> Inscrite dans la géographie des portes du Médoc, cette nouvelle cité-jardin est un projet d’occupation 
+                de la parcelle qui offre la possibilité de transformer chaque logement au fil du temps, dans un souci 
+                économe et écologique.<br /> C’est la notion de confort qui guide le projet tout entier. La surface du logement 
+                peut être augmentée de 52 à 80 % par l’accolement de l’espace extérieur – cour, patio, serre et jardin –
+                dans une continuité entre le dedans et le dehors. Un réseau de venelles irrigue le quartier et dessert les logements ainsi que les espaces publics.<br /> Les maisons sont déclinées selon deux typologies : la maison 
+                à patio et la longère (ensemble de maisons à étage bénéficiant d’une entrée et d’un jardin privatifs, 
+                inspirées d’une forme d’habitation traditionnelle du Médoc). Entre des murs et des clôtures, émergent 
+                des volumes en boiset des frondaisons d’arbres : autant de caractères qui renvoient au paysage local.  </p>
+        </div>
+    </div>
+
+
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--items">
+        <h2>Contact</h2>
+        <a>35, rue Vergniaud</a>
+        <a>75013 Paris</a>
+        <a>T/ +33 (0)1 46 15 86 30</a>
+        <a>bdp@alexandrechemetoff.com</a>
+      </div>
+
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <p class="website__rights">© bureau des paysages 2024. All rights reserved</p>
+      </div>
+    </section>
+  </div>
+
+    <script src="../app.js"></script>
+    <script>$(".xzoom, .xzoom-gallery").xzoom({ tint: '#333', Xoffset: 10, defaultScale: 0.75 });</script>;
+</body>
+
+</html>
