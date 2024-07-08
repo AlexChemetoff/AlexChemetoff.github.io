@@ -15,6 +15,28 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Butte de Bagneux ": {
+    Ville: "Bagneux",
+    "Date de livraison": "1990-XX-XX",
+    Maitrise_douvrage: "Ville de Bagneux",
+    Categorie: "Rues et jardins",
+    ref: "bagneuxb.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./bagneux_butte/bagneuxb1.jpg",
+  },
+
+  "Boulogne": {
+    Ville: "Boulogne",
+    "Date de livraison": "2001-XX-XX",
+    Maitrise_douvrage: "Ville de Boulogne-Billancourt",
+    Categorie: "Projets urbains",
+    ref: "boulogne.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./boulogne/boulogne1.jpg",
+  },
+
+
+
   "Angoulême": {
     Ville: "Angoulême",
     "Date de livraison": "2007-XX-XX",
