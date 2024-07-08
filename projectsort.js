@@ -15,6 +15,26 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "La ferme de Blanquefort": {
+    Ville: "Blanquefort",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: "SEMI de Blanquefort",
+    Categorie: "Activités",
+    ref: "blanquefort_ferme.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./blanquefort_ferme/bf1.jpg",
+  },
+
+  "La Riviere Blanquefort": {
+    Ville: "Blanquefort",
+    "Date de livraison": "2009-XX-XX",
+    Maitrise_douvrage: "SEMI de Blanquefort",
+    Categorie: "Rues et jardins",
+    ref: "blanquefortlariv.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./blanquefortlariv/blanquefortlariv1.jpg",
+  },
+
   "Butte de Bagneux ": {
     Ville: "Bagneux",
     "Date de livraison": "1990-XX-XX",
