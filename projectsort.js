@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Marne et Gondoire": {
+    Ville: "Marne et Gondoire",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "Communauté d’agglomération de Marne et Gondoire",
+    Categorie: "Projets urbains",
+    ref: "marnegondoire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./marnegondoire/m3.jpg",
+  },
+
   "Boulevards de Lyon": {
     Ville: "Lyon",
     "Date de livraison": "2001-XX-XX",
