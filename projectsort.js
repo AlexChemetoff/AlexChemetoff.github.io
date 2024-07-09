@@ -84,7 +84,7 @@ var projetsParNoms = {
     Categorie: "Rues et jardins",
     ref: "arcueil.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./arcueil/arcueil1.jpg",
+    miniature: "./arcueil/arcueil1.JPG",
   },
 
   "ENS de Paysage de Versailles": {
