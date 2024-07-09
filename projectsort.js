@@ -15,6 +15,37 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  " Aménagement de la plage": {
+    Ville: "Le Havre",
+    "Date de livraison": "1994-XX-XX",
+    Maitrise_douvrage: " Ville du Havre, atelier littoral",
+    Categorie: "Rues et jardins",
+    ref: "lehavre.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lehavre/l1.jpg",
+  },
+  
+  "Le parc des sports Géo André": {
+    Ville: "La Courneuve",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: "Ville de La Courneuve",
+    Categorie: "Activités",
+    ref: "lacourneuve_stade.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lacourneuve_stade/ls1.jpg",
+  },
+
+
+  "Maison des sports de La Courneuve": {
+    Ville: "La Courneuve",
+    "Date de livraison": "2006-XX-XX",
+    Maitrise_douvrage: "Ville de La Courneuve",
+    Categorie: "Activités",
+    ref: "lacourneuve_mds.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lacourneuve_mds/l1.jpg",
+  },
+
   "Espaces publics du centre-ville de Grenoble": {
     Ville: "Grenoble",
     "Date de livraison": "2013-XX-XX",
