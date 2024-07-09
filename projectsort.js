@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Bourges": {
+    Ville: "Bourges",
+    "Date de livraison": "2006-XX-XX",
+    Maitrise_douvrage: "SEGECE",
+    Categorie: "Activités",
+    ref: "bourges.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./bourges/b1.jpg",
+  },
+
   "La ferme de Blanquefort": {
     Ville: "Blanquefort",
     "Date de livraison": "2013-XX-XX",
@@ -139,9 +149,9 @@ var projetsParNoms = {
     Ville: "Bordeaux",
     "Date de livraison": "2012-01-01",
     Maitrise_douvrage: "CUB",
-    Categorie: "Rues et jardins",
+    Categorie: "Habitats",
     ref: "bordeaux_urbain.html",
-    miniature: "Gentilly/Gentilly3.png",
+    miniature: "bordeaux_urbain/bd1.jpg",
   },
 
 
