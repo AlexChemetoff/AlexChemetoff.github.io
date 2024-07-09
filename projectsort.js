@@ -170,10 +170,10 @@ var projetsParNoms = {
   "Gentilly": {
     Ville: "Gentilly",
     "Date de livraison": "1993-01-01",
-    Maitrise_douvrage: "Bureau des paysages ",
+    Maitrise_douvrage: "bureau des paysages ",
     Categorie: "Projets urbains",
     ref: "gentilly.html",
-    miniature: "Gentilly/Gentilly3.png",
+    miniature: "gentilly/g1.jpg",
   },
 
   "Villeurbanne Parc Habité": {
