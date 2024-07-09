@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "ZHB Villejuif": {
+    Ville: "Villejuif",
+    "Date de livraison": "1995-XX-XX",
+    Maitrise_douvrage: "SEMASEP",
+    Categorie: "Projets urbains",
+    ref: "villejuif.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./villejuif/B62Y4997.jpg",
+  },
+
   "Port de Vannes": {
     Ville: "Vannes",
     "Date de livraison": "2018-XX-XX",
