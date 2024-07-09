@@ -15,6 +15,46 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Espaces publics du centre-ville de Grenoble": {
+    Ville: "Grenoble",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: "Ville de Grenoble",
+    Categorie: "Rues et jardins",
+    ref: "grenoble_cv.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./grenoble_cv/gcv1.jpg",
+  },
+
+  "Aménagements extérieurs Grenoble": {
+    Ville: "Grenoble",
+    "Date de livraison": "2008-XX-XX",
+    Maitrise_douvrage: " Ville de Grenoble, Territoires 38 (SEM)",
+    Categorie: "Rues et jardins",
+    ref: "grenoble_parc.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./grenobleparc/g1.jpg",
+  },
+
+  "Festival des jardins": {
+    Ville: "Chaumont sur Loire",
+    "Date de livraison": "2008-XX-XX",
+    Maitrise_douvrage: "Conservatoire International des Parcs et Jardins et Paysage",
+    Categorie: "Rues et jardins",
+    ref: "chaumontsurloire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./chaumontsurloire/c1.jpg",
+  },
+
+  "Kanaalplan": {
+    Ville: "Bruxelles",
+    "Date de livraison": "2000-01-01",
+    Maitrise_douvrage: "Région de Bruxelles-Capitale, Administration de l’Aménagement du territoire et du Logement",
+    Categorie: "Rues et jardins",
+    ref: "bruxelles.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./bruxelles/bc1.JPG",
+  },
+
   "Bourges": {
     Ville: "Bourges",
     "Date de livraison": "2006-XX-XX",
