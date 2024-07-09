@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "La Roche sur Yon": {
+    Ville: "La Roche sur Yon",
+    "Date de livraison": "2014-XX-XX",
+    Maitrise_douvrage: " Ville de La Roche-sur-Yon",
+    Categorie: "Projets urbains",
+    ref: "laroche.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./laroche/l1.jpg",
+  },
+
   " Aménagement de la plage": {
     Ville: "Le Havre",
     "Date de livraison": "1994-XX-XX",
