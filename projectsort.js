@@ -35,6 +35,36 @@ var projetsParNoms = {
     miniature: "./vannes/Vannes Gambetta.jpg",
   },
 
+  "Marne et Gondoire": {
+    Ville: "Marne et Gondoire",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "Communauté d’agglomération de Marne et Gondoire",
+    Categorie: "Projets urbains",
+    ref: "marnegondoire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./marnegondoire/m3.jpg",
+  },
+
+  "Boulevards de Lyon": {
+    Ville: "Lyon",
+    "Date de livraison": "2001-XX-XX",
+    Maitrise_douvrage: " Le Grand Lyon Mission Tramway, SERL",
+    Categorie: "Projets urbains",
+    ref: "lyon_blv.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lyon_blv/l1.jpg",
+  },
+
+  "Les terrasses de La presqu’îLe": {
+    Ville: "Lyon",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: " Communauté Urbaine de Lyon",
+    Categorie: "Projets urbains",
+    ref: "lyon_presqueile.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lyon_presqueile/l1.jpg",
+  },
+
   "La Roche sur Yon": {
     Ville: "La Roche sur Yon",
     "Date de livraison": "2014-XX-XX",
@@ -45,7 +75,7 @@ var projetsParNoms = {
     miniature: "./laroche/l1.jpg",
   },
 
-  " Aménagement de la plage": {
+  "Aménagement de la plage": {
     Ville: "Le Havre",
     "Date de livraison": "1994-XX-XX",
     Maitrise_douvrage: " Ville du Havre, atelier littoral",
@@ -54,7 +84,7 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./lehavre/l1.jpg",
   },
-  
+
   "Le parc des sports Géo André": {
     Ville: "La Courneuve",
     "Date de livraison": "2007-XX-XX",
