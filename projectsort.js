@@ -7,12 +7,22 @@
 var projetsParNoms = {
   "NomProjet": {
     Ville: "NomVille",
-    "Date de livraison": "2000-01-01",
+    "Date de livraison": "2000-XX-XX",
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
+  },
+
+  "Port de Vannes": {
+    Ville: "Vannes",
+    "Date de livraison": "2018-XX-XX",
+    Maitrise_douvrage: "Groupe GIBOIRE",
+    Categorie: "Projets urbains",
+    ref: "vannes.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vannes/Vannes Gambetta.jpg",
   },
 
   "La Roche sur Yon": {
