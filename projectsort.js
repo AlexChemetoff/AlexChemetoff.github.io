@@ -15,6 +15,20 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+
+
+  
+
+  "Vallée de la Bièvre": {
+    Ville: "Val-de-Marne",
+    "Date de livraison": "1988-XX-XX",
+    Maitrise_douvrage: "Conseil Général du Val-de-Marne",
+    Categorie: "Projets urbains",
+    ref: "vallee_bievre.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vallee_bievre/pic1.jpg",
+  },
+
   "Equipement culturel de Vauhallan": {
     Ville: "Vauhallan",
     "Date de livraison": "2002-XX-XX",
@@ -24,10 +38,6 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./vauhallan/pic1.jpg",
   },
-
-
-
-
 
   "Jardin d'eau": {
     Ville: "Nancy",
