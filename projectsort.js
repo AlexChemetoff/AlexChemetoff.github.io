@@ -15,6 +15,26 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Médiaparc": {
+    Ville: "Nancy",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: "SOCOGIM",
+    Categorie: "Projets urbains",
+    ref: "nancy_mediaparc.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_mediaparc/n1.jpg",
+  },
+
+  "Les Deux Rives": {
+    Ville: "Nancy",
+    "Date de livraison": "2009-XX-XX",
+    Maitrise_douvrage: "Bouygues Immobilier",
+    Categorie: "Habitats",
+    ref: "nancy_deuxrives.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_deuxrives/n1.jpg",
+  },
+
   "Jardin d'eau": {
     Ville: "Nancy",
     "Date de livraison": "1996-XX-XX",
