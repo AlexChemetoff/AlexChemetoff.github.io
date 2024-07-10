@@ -15,9 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Les ateliers du Bras Vert": {
+    Ville: "Nancy",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: "SOLOREM",
+    Categorie: "Activités",
+    ref: "nancy_ecuries.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_ecuries/pic1.jpg",
+  },
 
-
-  
 
   "Maison individuelle à Thiétreville": {
     Ville: "Thiétreville",
