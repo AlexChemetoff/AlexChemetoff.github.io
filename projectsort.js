@@ -15,6 +15,36 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Jardin d'eau": {
+    Ville: "Nancy",
+    "Date de livraison": "1996-XX-XX",
+    Maitrise_douvrage: "SOLOREM ",
+    Categorie: "Rues et jardins",
+    ref: "nancy_jardineau.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_jardineau/n1.jpg",
+  },
+
+  "Les rives de Meurthe": {
+    Ville: "Nancy",
+    "Date de livraison": "1989-XX-XX",
+    Maitrise_douvrage: "SOLOREM (SEM)",
+    Categorie: "Rues et jardins",
+    ref: "nancy_rives.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_rives/n1.jpg",
+  },
+
+  "Jardins Schlumberger": {
+    Ville: "Montrouge",
+    "Date de livraison": "1985-XX-XX",
+    Maitrise_douvrage: "Groupe Schlumberger",
+    Categorie: "Rues et jardins",
+    ref: "montrouge.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./montrouge/m1.jpg",
+  },
+
   "ZHB Villejuif": {
     Ville: "Villejuif",
     "Date de livraison": "1995-XX-XX",
