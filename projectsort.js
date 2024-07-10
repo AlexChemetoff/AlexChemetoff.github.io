@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Plateau de Haye": {
+    Ville: "Nancy",
+    "Date de livraison": "2015-XX-XX",
+    Maitrise_douvrage: "Communauté Urbaine du Grand Nancy, André Rossinot Président",
+    Categorie: "Projets urbains",
+    ref: "nancy_plateau.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_plateau/n1.jpg",
+  },
+
   "Médiaparc": {
     Ville: "Nancy",
     "Date de livraison": "2007-XX-XX",
