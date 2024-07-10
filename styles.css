@@ -897,14 +897,14 @@ flex-direction: column;
   display: flex;
 
   justify-self: center;
-  margin: 0px auto;
+  margin: 12px auto;
   height: auto;
   padding: 15px 50px;
   background-color: #fff;
 
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1800px;
 }
 
 .project__content {
