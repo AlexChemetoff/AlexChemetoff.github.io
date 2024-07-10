@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+	  Site created by Ludovic HU
+
+      original "index.html" and "styles.css" based on website by Brian Design on youtube @ www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bureau des paysages</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./xzoom.css" media="all" />
+    <script type="text/javascript" src="./xzoom.js"></script>
+    <!--<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    /> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic%7CRaleway%3A800&ver=1.0" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../projets.html" id="navbar__logo"><!--<i class="fas fa-gem">--></i>bureau des paysages</a>
+            <a href="../projets.html" id="navbar__sublogo"><!--<i class="fas fa-gem">--></i>Alexandre Chemetoff</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../projets.html" class="navbar__links">Projets</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../editions.html" class="navbar__links">Éditions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../equipe.html" class="navbar__links">Équipe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="xzoom-container">
+        <div class="titled_image">
+            <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
+            <img class="xzoom" src="./images_projet/grenoble_cv/gcv1.jpg"
+                xoriginal="./images_projet/grenoble_cv/gcv1.jpg" />
+        </div>
+        <div class="xzoom-thumbs">
+            <p>Cliquez sur l'image que vous souhaitez voir.</p>
+            <a href="./images_projet/grenoble_cv/gcv1.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/grenoble_cv/gcv1.jpg">
+            </a>
+            <a href="./images_projet/grenoble_cv/gcv2.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/grenoble_cv/gcv2.jpg">
+            </a>
+            <a href="./images_projet/grenoble_cv/gcv3.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/grenoble_cv/gcv3.jpg">
+            </a>
+            <a href="./images_projet/grenoble_cv/gcv4.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/grenoble_cv/gcv4.jpg">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="project__container">
+        <div class="project__content">
+            <h1><strong>ESPACES PUBLICS DU CENTRE-VILLE<br />Grenoble (38)</strong></h1>
+            <p><strong>Budget travaux:</strong>  4 180 000 € HT </p>
+            <p><strong>Surface:</strong> 36 000 m² </p>
+            <p><strong>Date début:</strong> 2012 </p>
+            <p><strong>Date fin:</strong> 2013 </p>
+            <p><strong>Maîtrise d'ouvrage:</strong>  Ville de Grenoble </p>
+            <p><strong>Co-traitant(s):</strong> bureau des paysages <br /> <br /></p>
+            <p><strong>Description:</strong><br /> <br /> Ces projets du centre-ville de Grenoble invitent les habitants, les passants, artistes et 
+                commerçants, enfants, jardinniers sauvages, jeunes et vieux à investir les lieux en prennant 
+                soin des nouvelles plantattions, en descendant une chaise pour se tenir dans la rue, en 
+                étandant les étals, en s’appropriant l’espace public. <br /> Les arbres existants sont conservés, de 
+                nouveaux arbres sont plantés, des plantes grimpantes courent sur les façades, des herbes 
+                poussent entre les pavés. C’est un esprit empreint de simplicité qui préside à l’esthétique 
+                de l’aménagement, une certaine naturalité qui donne aux espaces publics un caractère 
+                populaire et raffiné. </p>
+        </div>
+    </div>
+
+
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--items">
+        <h2>Contact</h2>
+        <a>35, rue Vergniaud</a>
+        <a>75013 Paris</a>
+        <a>T/ +33 (0)1 46 15 86 30</a>
+        <a>bdp@alexandrechemetoff.com</a>
+      </div>
+
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <p class="website__rights">© bureau des paysages 2024. All rights reserved</p>
+      </div>
+    </section>
+  </div>
+
+    <script src="../app.js"></script>
+    <script>$(".xzoom, .xzoom-gallery").xzoom({ tint: '#333', Xoffset: 10, defaultScale: 0.75 });</script>;
+</body>
+
+</html>

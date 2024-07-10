@@ -7,12 +7,247 @@
 var projetsParNoms = {
   "NomProjet": {
     Ville: "NomVille",
-    "Date de livraison": "2000-01-01",
+    "Date de livraison": "2000-XX-XX",
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./NomDossierImage/nomImage.jpgOuPng",
+    miniature: "./NomDossierImage/pic1.jpg",
+  },
+
+
+
+  
+
+  "Maison individuelle à Thiétreville": {
+    Ville: "Thiétreville",
+    "Date de livraison": "2005-XX-XX",
+    Maitrise_douvrage: "Privée",
+    Categorie: "Habitats",
+    ref: "thietreville.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./thietreville/pic1.jpg",
+  },
+
+  "Vallée de la Bièvre": {
+    Ville: "Val-de-Marne",
+    "Date de livraison": "1988-XX-XX",
+    Maitrise_douvrage: "Conseil Général du Val-de-Marne",
+    Categorie: "Projets urbains",
+    ref: "vallee_bievre.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vallee_bievre/pic1.jpg",
+  },
+
+  "Equipement culturel de Vauhallan": {
+    Ville: "Vauhallan",
+    "Date de livraison": "2002-XX-XX",
+    Maitrise_douvrage: "Commune de Vauhallan",
+    Categorie: "Activités",
+    ref: "vauhallan.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vauhallan/pic1.jpg",
+  },
+
+  "Plateau de Haye": {
+    Ville: "Nancy",
+    "Date de livraison": "2015-XX-XX",
+    Maitrise_douvrage: "Communauté Urbaine du Grand Nancy, André Rossinot Président",
+    Categorie: "Projets urbains",
+    ref: "nancy_plateau.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_plateau/n1.jpg",
+  },
+
+  "Médiaparc": {
+    Ville: "Nancy",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: "SOCOGIM",
+    Categorie: "Projets urbains",
+    ref: "nancy_mediaparc.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_mediaparc/n1.jpg",
+  },
+
+  "Les Deux Rives": {
+    Ville: "Nancy",
+    "Date de livraison": "2009-XX-XX",
+    Maitrise_douvrage: "Bouygues Immobilier",
+    Categorie: "Habitats",
+    ref: "nancy_deuxrives.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_deuxrives/n1.jpg",
+  },
+
+  "Jardin d'eau": {
+    Ville: "Nancy",
+    "Date de livraison": "1996-XX-XX",
+    Maitrise_douvrage: "SOLOREM ",
+    Categorie: "Rues et jardins",
+    ref: "nancy_jardineau.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_jardineau/n1.jpg",
+  },
+
+  "Les rives de Meurthe": {
+    Ville: "Nancy",
+    "Date de livraison": "1989-XX-XX",
+    Maitrise_douvrage: "SOLOREM (SEM)",
+    Categorie: "Rues et jardins",
+    ref: "nancy_rives.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_rives/n1.jpg",
+  },
+
+  "Jardins Schlumberger": {
+    Ville: "Montrouge",
+    "Date de livraison": "1985-XX-XX",
+    Maitrise_douvrage: "Groupe Schlumberger",
+    Categorie: "Rues et jardins",
+    ref: "montrouge.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./montrouge/m1.jpg",
+  },
+
+  "ZHB Villejuif": {
+    Ville: "Villejuif",
+    "Date de livraison": "1995-XX-XX",
+    Maitrise_douvrage: "SEMASEP",
+    Categorie: "Projets urbains",
+    ref: "villejuif.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./villejuif/B62Y4997.jpg",
+  },
+
+  "Port de Vannes": {
+    Ville: "Vannes",
+    "Date de livraison": "2018-XX-XX",
+    Maitrise_douvrage: "Groupe GIBOIRE",
+    Categorie: "Projets urbains",
+    ref: "vannes.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vannes/Vannes Gambetta.jpg",
+  },
+
+  "Marne et Gondoire": {
+    Ville: "Marne et Gondoire",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "Communauté d’agglomération de Marne et Gondoire",
+    Categorie: "Projets urbains",
+    ref: "marnegondoire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./marnegondoire/m3.jpg",
+  },
+
+  "Boulevards de Lyon": {
+    Ville: "Lyon",
+    "Date de livraison": "2001-XX-XX",
+    Maitrise_douvrage: " Le Grand Lyon Mission Tramway, SERL",
+    Categorie: "Projets urbains",
+    ref: "lyon_blv.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lyon_blv/l1.jpg",
+  },
+
+  "Les terrasses de La presqu’îLe": {
+    Ville: "Lyon",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: " Communauté Urbaine de Lyon",
+    Categorie: "Projets urbains",
+    ref: "lyon_presqueile.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lyon_presqueile/l1.jpg",
+  },
+
+  "La Roche sur Yon": {
+    Ville: "La Roche sur Yon",
+    "Date de livraison": "2014-XX-XX",
+    Maitrise_douvrage: " Ville de La Roche-sur-Yon",
+    Categorie: "Projets urbains",
+    ref: "laroche.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./laroche/l1.jpg",
+  },
+
+  "Aménagement de la plage": {
+    Ville: "Le Havre",
+    "Date de livraison": "1994-XX-XX",
+    Maitrise_douvrage: " Ville du Havre, atelier littoral",
+    Categorie: "Rues et jardins",
+    ref: "lehavre.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lehavre/l1.jpg",
+  },
+
+  "Le parc des sports Géo André": {
+    Ville: "La Courneuve",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: "Ville de La Courneuve",
+    Categorie: "Activités",
+    ref: "lacourneuve_stade.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lacourneuve_stade/ls1.jpg",
+  },
+
+
+  "Maison des sports de La Courneuve": {
+    Ville: "La Courneuve",
+    "Date de livraison": "2006-XX-XX",
+    Maitrise_douvrage: "Ville de La Courneuve",
+    Categorie: "Activités",
+    ref: "lacourneuve_mds.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lacourneuve_mds/l1.jpg",
+  },
+
+  "Espaces publics du centre-ville de Grenoble": {
+    Ville: "Grenoble",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: "Ville de Grenoble",
+    Categorie: "Rues et jardins",
+    ref: "grenoble_cv.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./grenoble_cv/gcv1.jpg",
+  },
+
+  "Aménagements extérieurs Grenoble": {
+    Ville: "Grenoble",
+    "Date de livraison": "2008-XX-XX",
+    Maitrise_douvrage: " Ville de Grenoble, Territoires 38 (SEM)",
+    Categorie: "Rues et jardins",
+    ref: "grenoble_parc.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./grenobleparc/g1.jpg",
+  },
+
+  "Festival des jardins": {
+    Ville: "Chaumont sur Loire",
+    "Date de livraison": "2008-XX-XX",
+    Maitrise_douvrage: "Conservatoire International des Parcs et Jardins et Paysage",
+    Categorie: "Rues et jardins",
+    ref: "chaumontsurloire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./chaumontsurloire/c1.jpg",
+  },
+
+  "Kanaalplan": {
+    Ville: "Bruxelles",
+    "Date de livraison": "2000-01-01",
+    Maitrise_douvrage: "Région de Bruxelles-Capitale, Administration de l’Aménagement du territoire et du Logement",
+    Categorie: "Rues et jardins",
+    ref: "bruxelles.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./bruxelles/bc1.JPG",
+  },
+
+  "Bourges": {
+    Ville: "Bourges",
+    "Date de livraison": "2006-XX-XX",
+    Maitrise_douvrage: "SEGECE",
+    Categorie: "Activités",
+    ref: "bourges.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./bourges/b1.jpg",
   },
 
   "La ferme de Blanquefort": {
@@ -84,7 +319,7 @@ var projetsParNoms = {
     Categorie: "Rues et jardins",
     ref: "arcueil.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./arcueil/arcueil1.jpg",
+    miniature: "./arcueil/arcueil1.JPG",
   },
 
   "ENS de Paysage de Versailles": {
@@ -120,10 +355,10 @@ var projetsParNoms = {
   "Gentilly": {
     Ville: "Gentilly",
     "Date de livraison": "1993-01-01",
-    Maitrise_douvrage: "Bureau des paysages ",
+    Maitrise_douvrage: "bureau des paysages ",
     Categorie: "Projets urbains",
     ref: "gentilly.html",
-    miniature: "Gentilly/Gentilly3.png",
+    miniature: "gentilly/g1.jpg",
   },
 
   "Villeurbanne Parc Habité": {
@@ -139,9 +374,9 @@ var projetsParNoms = {
     Ville: "Bordeaux",
     "Date de livraison": "2012-01-01",
     Maitrise_douvrage: "CUB",
-    Categorie: "Rues et jardins",
+    Categorie: "Habitats",
     ref: "bordeaux_urbain.html",
-    miniature: "Gentilly/Gentilly3.png",
+    miniature: "bordeaux_urbain/bd1.jpg",
   },
 
 
