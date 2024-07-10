@@ -15,6 +15,20 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
   },
 
+  "Equipement culturel de Vauhallan": {
+    Ville: "Vauhallan",
+    "Date de livraison": "2002-XX-XX",
+    Maitrise_douvrage: "Commune de Vauhallan",
+    Categorie: "Activités",
+    ref: "vauhallan.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vauhallan/pic1.jpg",
+  },
+
+
+
+
+
   "Jardin d'eau": {
     Ville: "Nancy",
     "Date de livraison": "1996-XX-XX",
