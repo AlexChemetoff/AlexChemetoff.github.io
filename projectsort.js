@@ -7,12 +7,62 @@
 var projetsParNoms = {
   "NomProjet": {
     Ville: "NomVille",
-    "Date de livraison": "2000-01-01",
+    "Date de livraison": "2000-XX-XX",
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./NomDossierImage/nomImage.jpgOuPng",
+  },
+
+  "ZHB Villejuif": {
+    Ville: "Villejuif",
+    "Date de livraison": "1995-XX-XX",
+    Maitrise_douvrage: "SEMASEP",
+    Categorie: "Projets urbains",
+    ref: "villejuif.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./villejuif/B62Y4997.jpg",
+  },
+
+  "Port de Vannes": {
+    Ville: "Vannes",
+    "Date de livraison": "2018-XX-XX",
+    Maitrise_douvrage: "Groupe GIBOIRE",
+    Categorie: "Projets urbains",
+    ref: "vannes.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./vannes/Vannes Gambetta.jpg",
+  },
+
+  "Marne et Gondoire": {
+    Ville: "Marne et Gondoire",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "Communauté d’agglomération de Marne et Gondoire",
+    Categorie: "Projets urbains",
+    ref: "marnegondoire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./marnegondoire/m3.jpg",
+  },
+
+  "Boulevards de Lyon": {
+    Ville: "Lyon",
+    "Date de livraison": "2001-XX-XX",
+    Maitrise_douvrage: " Le Grand Lyon Mission Tramway, SERL",
+    Categorie: "Projets urbains",
+    ref: "lyon_blv.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lyon_blv/l1.jpg",
+  },
+
+  "Les terrasses de La presqu’îLe": {
+    Ville: "Lyon",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: " Communauté Urbaine de Lyon",
+    Categorie: "Projets urbains",
+    ref: "lyon_presqueile.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./lyon_presqueile/l1.jpg",
   },
 
   "La Roche sur Yon": {
@@ -25,7 +75,7 @@ var projetsParNoms = {
     miniature: "./laroche/l1.jpg",
   },
 
-  " Aménagement de la plage": {
+  "Aménagement de la plage": {
     Ville: "Le Havre",
     "Date de livraison": "1994-XX-XX",
     Maitrise_douvrage: " Ville du Havre, atelier littoral",
@@ -34,7 +84,7 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./lehavre/l1.jpg",
   },
-  
+
   "Le parc des sports Géo André": {
     Ville: "La Courneuve",
     "Date de livraison": "2007-XX-XX",
