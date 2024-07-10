@@ -239,7 +239,7 @@
 
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1600px;
   padding: 50px;
 }
 
@@ -254,7 +254,7 @@
 
 .main__img--container {
   text-align: center;
-  padding-right: 15px;
+  padding-right: 55px;
   padding-top: 100px;
 }
 
@@ -379,16 +379,18 @@
   .main__img--container {
     padding-right: 0px;
     padding-top: 0px;
+
   }
 
   .main__content {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .main__content h1 {
     font-size: 2.5rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .main__content h2 {
@@ -397,8 +399,9 @@
 
   .main__content p {
     margin-top: 6px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: left;
+
   }
 
   #main__img {
@@ -1064,11 +1067,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0;
+
+  margin:20px 50px;
+
 }
 
 .employee-card {
-  width: 80%;
+  width: 100%;
   border: 1px solid #000000;
 
   padding: 20px;
@@ -1086,9 +1091,16 @@ img {
   padding: 0;
 }
 
+
+
 .employee-card ul li {
+
+  text-align: center;
+
   font-size: 1rem;
-  margin: 5px 0;
+  margin: 5px 0px;
+
+  width:19%;
 }
 
 /* Styles for the arrow and collapsible list */
@@ -1107,13 +1119,7 @@ img {
   flex-wrap: wrap;
 }
 
-.collapsible li {
-  font-size: 1rem;
-  margin: 5px 10px;
-  width: 300px;
-  /*grid-auto-rows: minmax(10px, auto);
-  box-sizing: border-box;*/
-}
+
 
 .collapsible1 {
   padding-left: 20px;
@@ -1122,13 +1128,6 @@ img {
   flex-wrap: wrap;
 }
 
-.collapsible1 li {
-  font-size: 1rem;
-  margin: 5px 10px;
-  width: 300px;
-  /*grid-auto-rows: minmax(10px, auto);
-  box-sizing: border-box;*/
-}
 
 /* Début Modif pour index.html */
 
@@ -1231,16 +1230,45 @@ img {
   -webkit-text-fill-color: #000;
 }
 
+@media screen and (max-width: 1200px) {
+  .employee-card ul li {
+    width:24%;
+  }
+}
+
+
 @media screen and (max-width: 960px) {
   .main_btnhome::after {
     font-size: 48px;
   }
+
+  .employee-card ul li {
+    width:31%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .employee-card ul li {
+    width:48%;
+  }
+
+/*
+  #mainhome__img {
+   background-image:url(./images/AC_gifADF.gif);
+  }*/
 }
 
 @media screen and (max-width: 480px) {
   .main_btnhome::after {
     font-size: 32px;
   }
+
+  .employee-card ul li {
+    font-size: 0.85rem;
+
+  }
+
 /*
   #mainhome__img {
    background-image:url(./images/AC_gifADF.gif);
