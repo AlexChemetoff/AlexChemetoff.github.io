@@ -15,6 +15,36 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Place des Savonniers": {
+    Ville: "Peynier",
+    "Date de livraison": "2003-XX-XX",
+    Maitrise_douvrage: "Commune de Peynier",
+    Categorie: "Projets urbains",
+    ref: "peynier.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./peynier/pic1.jpg",
+  },
+
+  "Parc des Saules": {
+    Ville: "Orly",
+    "Date de livraison": "1998-XX-XX",
+    Maitrise_douvrage: "Opac du Val de Marne",
+    Categorie: "Rues et jardins",
+    ref: "orly.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./orly/pic1.jpg",
+  },
+
+  "Le 'Faisceau'": {
+    Ville: "Nanterre",
+    "Date de livraison": "2010-XX-XX",
+    Maitrise_douvrage: "EPASA (Etablissement Public de Seine Arche)",
+    Categorie: "Projets urbains",
+    ref: "nanterre.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nanterre/pic1.jpg",
+  },
+
   "Les ateliers du Bras Vert": {
     Ville: "Nancy",
     "Date de livraison": "2013-XX-XX",
