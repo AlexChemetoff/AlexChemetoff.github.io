@@ -12,12 +12,22 @@ var projetsParNoms = {
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./NomDossierImage/nomImage.jpgOuPng",
+    miniature: "./NomDossierImage/pic1.jpg",
   },
 
 
 
   
+
+  "Maison individuelle à Thiétreville": {
+    Ville: "Thiétreville",
+    "Date de livraison": "2005-XX-XX",
+    Maitrise_douvrage: "Privée",
+    Categorie: "Habitats",
+    ref: "thietreville.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./thietreville/pic1.jpg",
+  },
 
   "Vallée de la Bièvre": {
     Ville: "Val-de-Marne",
