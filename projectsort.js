@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Rungis": {
+    Ville: "Rungis",
+    "Date de livraison": "2014-XX-XX",
+    Maitrise_douvrage: " SOGARIS",
+    Categorie: "Expositions",
+    ref: "rungis.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./rungis/pic1.jpg",
+  },
+
   "Place des Savonniers": {
     Ville: "Peynier",
     "Date de livraison": "2003-XX-XX",
