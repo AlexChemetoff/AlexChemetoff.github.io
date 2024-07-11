@@ -52,22 +52,22 @@
     <div class="xzoom-container">
         <div class="titled_image">
             <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
-            <img class="xzoom" src="./images_projet/nancy_plateau/n1.jpg"
-                xoriginal="./images_projet/nancy_plateau/n1.jpg" />
+            <img class="xzoom" src="./images_projet/template_images/pic1.jpg"
+                xoriginal="./images_projet/template_images/pic1.jpg" />
         </div>
         <div class="xzoom-thumbs">
             <p>Cliquez sur l'image que vous souhaitez voir.</p>
-            <a href="./images_projet/nancy_plateau/n1.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/nancy_plateau/n1.jpg">
+            <a href="./images_projet/template_images/pic1.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic1.jpg">
             </a>
-            <a href="./images_projet/nancy_plateau/n2.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/nancy_plateau/n2.jpg">
+            <a href="./images_projet/template_images/pic2.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic2.jpg">
             </a>
-            <a href="./images_projet/nancy_plateau/n3.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/nancy_plateau/n3.jpg">
+            <a href="./images_projet/template_images/pic3.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic3.jpg">
             </a>
-            <a href="./images_projet/nancy_plateau/n4.jpg">
-                <img class="xzoom-gallery" width="80" src="./images_projet/nancy_plateau/n4.jpg">
+            <a href="./images_projet/template_images/pic4.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/template_images/pic4.jpg">
             </a>
 
         </div>
@@ -75,27 +75,14 @@
 
     <div class="project__container">
         <div class="project__content">
-            <h1><strong>LE PLATEAU DE HAYE<br /> Laxou, Maxeville ET Nancy (54)</strong></h1>
-            <p><strong>Budget:</strong> 84 450 000 € HT </p>
-            <p><strong>Emprise du périmètre du schéma directeur :</strong> 440 ha, sur trois communes Laxou, Maxéville et Nancy</p>
-            <p><strong>Surface des espaces publics aménagés:</strong> 150 ha </p>
-            <p><strong>Date début:</strong> 2004 </p>
-            <p><strong>Date fin:</strong> 2015 </p>
-            <p><strong>Maîtrise d'ouvrage:</strong> Communauté Urbaine du Grand Nancy, André Rossinot Président </p>
-            <p><strong>Co-traitant(s):</strong> bureau des paysages <br /> <br /></p>
-            <p><strong>Description:</strong><br /> <br /> L’établissement du schéma directeur et son suivi, permettent tout à la fois de fixer les grandes orientations d’un projet et
-                de le faire évoluer au fil du temps, au fur et à mesure de sa réalisation. C’est un plan vivant, un plan guidant les actions.
-                Il entre en correspondance avec les circonstances de sa mise en œuvre pour s’adapter et rester toujours d’actualité.
-                Les faisabilités permettent de choisir des maîtres d’œuvres et des maîtres d’ouvrage sur la base d’objectifs clairement
-                exprimés, puis de recommencer avec eux des projets jusqu’à ce que ceux-ci entrent en correspondance avec les lieux et
-                trouvent leur place par rapport à leur propre programme et leurs propres moyens, dans un ensemble cohérent. <br />
-                La mise en œuvre d’un réseau d’espaces publics est la condition pour que le lien entre toutes les parties devienne
-                réalité et se traduise dans les faits. Il fait l’objet d’une mission complète qui porte sur tous les aspects techniques
-                permettant ainsi de maîtriser l’économie générale des aménagements. <br />
-                Un certain nombre de projets, faisant l’objet d’une mission de maîtrise d’œuvre, ont été réalisés à titre de témoin :
-                la transformation d’appartements, un bureau de poste, une rue, une cour d’immeuble, la tour des énergies, des box,
-                des jardins partagés… Grâce à des missions relatives à la communication et au partage, le plan sur la place, cartes
-                sur table, le projet devient son propre média. </p>
+            <h1><strong>LE PROJET DE TRANSFORMATION DU SITE DE LA COOP <br /> Strasbourg (67)</strong></h1>
+            <p><strong>Budget:</strong> / € </p>
+            <p><strong>Surface:</strong> 6.7 ha </p>
+            <p><strong>Date début:</strong> 2015 </p>
+            <p><strong>Date fin:</strong> 2018 </p>
+            <p><strong>Maîtrise d'ouvrage:</strong> SPL Deux Rives </p>
+            <p><strong>Co-traitant(s):</strong> Alexandre Chemetoff & associés <br /> <br /></p>
+            <p><strong>Description:</strong><br /> <br /> 1 </p>
         </div>
     </div>
 

@@ -86,14 +86,14 @@ var projetsParNoms = {
     miniature: "./vauhallan/pic1.jpg",
   },
 
-  "Plateau de Haye": {
+  "Plateau de Haye : Plan Guide": {
     Ville: "Nancy",
     "Date de livraison": "2015-XX-XX",
     Maitrise_douvrage: "Communauté Urbaine du Grand Nancy, André Rossinot Président",
     Categorie: "Projets urbains",
-    ref: "nancy_plateau.html",
+    ref: "nancy_plateau_guideplan.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./nancy_plateau/n1.jpg",
+    miniature: "./nancy_plateau_guideplan/n1.jpg",
   },
 
   "Médiaparc": {
