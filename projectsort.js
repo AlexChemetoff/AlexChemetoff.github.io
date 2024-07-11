@@ -14,6 +14,18 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./NomDossierImage/pic1.jpg",
   },
+
+"Manufacture": {
+    Ville: "Saint Etienne",
+    "Date de livraison": "2013-XX-XX",
+    Maitrise_douvrage: " Etablissement public d'aménagement de Saint-Etienne (EPASE)",
+    Categorie: "Activités",
+    ref: "st_etienne_manufacture.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./st_etienne_manufacture/pic1.jpg",
+  },
+
+
   "Une école de plein-air": {
     Ville: "Rennes",
     "Date de livraison": "2012-XX-XX",
