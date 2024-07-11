@@ -14,6 +14,26 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./NomDossierImage/pic1.jpg",
   },
+  "Une école de plein-air": {
+    Ville: "Rennes",
+    "Date de livraison": "2012-XX-XX",
+    Maitrise_douvrage: "Ville de Rennes, Archipel Habitat",
+    Categorie: "Habitats",
+    ref: "rennes_ecole.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./rennes_ecole/pic1.jpg",
+  },
+
+
+  "Les bords de Vilaine": {
+    Ville: "Rennes",
+    "Date de livraison": "1991-XX-XX",
+    Maitrise_douvrage: "Territoires (SEM)",
+    Categorie: "Habitats",
+    ref: "rennes_vilaine.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./rennes_vilaine/pic1.jpg",
+  },
 
   "Rungis": {
     Ville: "Rungis",
