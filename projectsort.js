@@ -16,6 +16,17 @@ var projetsParNoms = {
   },
 
 
+  "Constructions Paris 10": {
+    Ville: "Paris",
+    "Date de livraison": "2016-XX-XX",
+    Maitrise_douvrage: "Paris Habitat - OPH",
+    Categorie: "Habitats",
+    ref: "paris10.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./paris10/pic1.jpg",
+  },
+
+
   "Place Denfert-Rochereau": {
     Ville: "Paris",
     "Date de livraison": "en cours",
