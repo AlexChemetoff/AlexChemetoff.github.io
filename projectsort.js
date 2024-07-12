@@ -16,6 +16,17 @@ var projetsParNoms = {
   },
 
 
+  "Tilleul-Argenté & Cèdre-Bleu": {
+    Ville: "Nancy",
+    "Date de livraison": "en cours",
+    Maitrise_douvrage: "OPH du Grand Nancy",
+    Categorie: "Habitats",
+    ref: "nancy_tilleul.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_tilleul/pic1.jpg",
+  },
+
+
   "Bords de Seine à Ris-Orangis": {
     Ville: "Ris-Orangis",
     "Date de livraison": "en cours",
@@ -25,7 +36,6 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./risorangis/pic1.jpg",
   },
-
 
 
 "Manufacture": {
