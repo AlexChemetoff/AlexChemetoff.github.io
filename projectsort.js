@@ -15,7 +15,6 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
-
   "Au bord de la Tiretaine": {
     Ville: "Clermont-Ferrand",
     "Date de livraison": "en cours",
@@ -48,9 +47,48 @@ var projetsParNoms = {
     miniature: "./risorangis/pic1.jpg",
   },
 
+  "Abords du centre commercial": {
+    Ville: "Nantes",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: " Nantes Métropole",
+    Categorie: "Projets urbains",
+    ref: "nantes_centrecom.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_centrecom/pic1.jpg",
+  },
 
-"Manufacture": {
-    Ville: "Saint Etienne",
+  "Cales": {
+    Ville: "Nantes",
+    "Date de livraison": "2009-XX-XX",
+    Maitrise_douvrage: " SAMOA (SEM)",
+    Categorie: "Projets urbains",
+    ref: "nantes_cales.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_cales/pic1.jpg",
+  },
+
+  "Boulevard du Général De Gaulle": {
+    Ville: "Nantes",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: " Nantes Métropole",
+    Categorie: "Projets urbains",
+    ref: "nantes_blvgdg.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_blvgdg/pic1.jpg",
+  },
+
+  "Une école dans la manufacture": {
+    Ville: "Saint-Etienne",
+    "Date de livraison": "2014-XX-XX",
+    Maitrise_douvrage: " Etablissement public d'aménagement de Saint-Etienne (EPASE)",
+    Categorie: "Activités",
+    ref: "st_etienne_ecole.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./st_etienne_ecole/pic1.jpg",
+  },
+
+  "Manufacture": {
+    Ville: "Saint-Etienne",
     "Date de livraison": "2013-XX-XX",
     Maitrise_douvrage: " Etablissement public d'aménagement de Saint-Etienne (EPASE)",
     Categorie: "Activités",
