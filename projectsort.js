@@ -15,6 +15,19 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+
+  "Bords de Seine à Ris-Orangis": {
+    Ville: "Ris-Orangis",
+    "Date de livraison": "en cours",
+    Maitrise_douvrage: " Ville de Ris-Orangis",
+    Categorie: "Rues et jardins",
+    ref: "risorangis.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./risorangis/pic1.jpg",
+  },
+
+
+
 "Manufacture": {
     Ville: "Saint Etienne",
     "Date de livraison": "2013-XX-XX",
@@ -431,7 +444,7 @@ var projetsParNoms = {
     miniature: "./arcueil/arcueil1.JPG",
   },
 
-  "ENS de Paysage de Versailles": {
+  "Bâtiment des Suisses au Potager du Roi": {
     Ville: "Versailles",
     "Date de livraison": "2019-XX-XX",
     Maitrise_douvrage: "ENS de Paysage de Versailles",
