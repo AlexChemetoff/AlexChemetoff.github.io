@@ -15,6 +15,18 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+
+  "Place Denfert-Rochereau": {
+    Ville: "Paris",
+    "Date de livraison": "en cours",
+    Maitrise_douvrage: "Ville de Paris",
+    Categorie: "Rues et jardins",
+    ref: "paris_denfert.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./paris_denfert/pic1.jpg",
+  },
+
+
   "Au bord de la Tiretaine": {
     Ville: "Clermont-Ferrand",
     "Date de livraison": "en cours",
