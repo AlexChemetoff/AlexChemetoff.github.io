@@ -38,6 +38,36 @@ var projetsParNoms = {
   },
 
 
+  "Nefs de la Loire": {
+    Ville: "Nantes",
+    "Date de livraison": "2007-XX-XX",
+    Maitrise_douvrage: "Nantes Métropole",
+    Categorie: "Projets Urbains",
+    ref: "nantes_nefsloire.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_nefsloire/pic1.jpg",
+  },
+
+  "Square de l'île Mabon": {
+    Ville: "Nantes",
+    "Date de livraison": "2005-XX-XX",
+    Maitrise_douvrage: "Nantes Métropole",
+    Categorie: "Rues et jardins",
+    ref: "nantes_square.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_square/pic1.jpg",
+  },
+
+  "Îlots": {
+    Ville: "Nantes",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "Nantes Métropole",
+    Categorie: "Projets urbains",
+    ref: "nantes_ilotsgeneral.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_ilotsgeneral/pic1.jpg",
+  },
+  
   "Au bord de la Tiretaine": {
     Ville: "Clermont-Ferrand",
     "Date de livraison": "en cours",
