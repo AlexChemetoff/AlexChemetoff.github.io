@@ -16,6 +16,17 @@ var projetsParNoms = {
   },
 
 
+  "Au bord de la Tiretaine": {
+    Ville: "Clermont-Ferrand",
+    "Date de livraison": "en cours",
+    Maitrise_douvrage: "Bouygues Immobilier",
+    Categorie: "Projets urbains",
+    ref: "clermont_ferrand_site_industriel.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./clermont_ferrand_site_industriel/pic1.jpg",
+  },
+
+
   "Tilleul-Argenté & Cèdre-Bleu": {
     Ville: "Nancy",
     "Date de livraison": "en cours",
@@ -30,7 +41,7 @@ var projetsParNoms = {
   "Bords de Seine à Ris-Orangis": {
     Ville: "Ris-Orangis",
     "Date de livraison": "en cours",
-    Maitrise_douvrage: " Ville de Ris-Orangis",
+    Maitrise_douvrage: "Ville de Ris-Orangis",
     Categorie: "Rues et jardins",
     ref: "risorangis.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
