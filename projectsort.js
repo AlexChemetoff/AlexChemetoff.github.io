@@ -15,6 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Parc des chantiers": {
+    Ville: "Nantes",
+    "Date de livraison": "2009-XX-XX",
+    Maitrise_douvrage: "Nantes Métropole",
+    Categorie: "Projets Urbains",
+    ref: "nantes_parcdeschantiers.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_parcdeschantiers/pic1.jpg",
+  },
+
   "Nefs de la Loire": {
     Ville: "Nantes",
     "Date de livraison": "2007-XX-XX",
@@ -44,7 +54,7 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nantes_ilotsgeneral/pic1.jpg",
   },
-  
+
   "Au bord de la Tiretaine": {
     Ville: "Clermont-Ferrand",
     "Date de livraison": "en cours",
