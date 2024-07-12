@@ -15,7 +15,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
-
+ "Mitterrand": {
+    Ville: "Nantes",
+    "Date de livraison": "2000-XX-XX",
+    Maitrise_douvrage: "Client",
+    Categorie: "Projets urbains",
+    ref: "nantes_mitterrand.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_mitterrand/B62Y7547_vignette.jpg",
+  },
+  
   "Constructions Paris 10": {
     Ville: "Paris",
     "Date de livraison": "2016-XX-XX",
