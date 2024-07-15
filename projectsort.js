@@ -7,6 +7,7 @@
 var projetsParNoms = {
   "NomProjet": {
     Ville: "NomVille",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
     "Date de livraison": "2000-XX-XX",
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
@@ -27,7 +28,7 @@ var projetsParNoms = {
 
   "Boulevard Exelmans": {
     Ville: "Paris",
-    "Date de livraison": "2017-XX-XX",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "Paris Habitat OPH",
     Categorie: "Habitats",
     ref: "paris_blvexelmans.html",
@@ -37,7 +38,7 @@ var projetsParNoms = {
 
   "Villa des Mariniers": {
     Ville: "Paris",
-    "Date de livraison": "2011-XX-XX",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "RIVP (Régie immobilière de la Ville de Paris)",
     Categorie: "Habitats",
     ref: "paris_villadesmariniers.html",
@@ -47,7 +48,7 @@ var projetsParNoms = {
 
   "Cinéma": {
     Ville: "Paris",
-    "Date de livraison": "2011-XX-XX",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "UGC",
     Categorie: "Activités",
     ref: "paris_cinema.html",
@@ -57,7 +58,7 @@ var projetsParNoms = {
 
   "Place de la République": {
     Ville: "Paris",
-    "Date de livraison": "2009-XX-XX",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "Ville de Paris",
     Categorie: "Projets urbains",
     ref: "paris_placerepublique.html",
