@@ -776,7 +776,22 @@ function searching() {
   var Nom = "";
   for (i = 0; i < filteredData.length; i++) {
     Nom = filteredData[i].Nom.toUpperCase(); /*Uppercase for Case Insentive*/
+    Maitrise_douvrage = filteredData[i].Maitrise_douvrage.toUpperCase(); /*Uppercase for Case Insentive*/
+    Date_livraison = filteredData[i]["Date de livraison"].toUpperCase(); /*Uppercase for Case Insentive*/
+    Ville = filteredData[i].Ville.toUpperCase(); /*Uppercase for Case Insentive*/
     if (Nom.indexOf(SearchString) >= 0) {
+      /*Search By Nom*/
+      SearchData[index++] = filteredData[i];
+    }
+    else if (Maitrise_douvrage.indexOf(SearchString) >= 0) {
+      /*Search By Nom*/
+      SearchData[index++] = filteredData[i];
+    }
+    else if (Date_livraison.indexOf(SearchString) >= 0) {
+      /*Search By Nom*/
+      SearchData[index++] = filteredData[i];
+    }
+    else if (Ville.indexOf(SearchString) >= 0) {
       /*Search By Nom*/
       SearchData[index++] = filteredData[i];
     }
