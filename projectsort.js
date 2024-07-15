@@ -15,14 +15,34 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
- "Mitterrand": {
+  "Gare de l'Etat": {
     Ville: "Nantes",
-    "Date de livraison": "2000-XX-XX",
-    Maitrise_douvrage: "Client",
+    "Date de livraison": "2001-XX-XX",
+    Maitrise_douvrage: "Communauté Urbaine de Nantes",
+    Categorie: "Projets urbains",
+    ref: "nantes_gare.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_gare/pic1.jpg",
+  },
+
+  "Quartier du Tripode": {
+    Ville: "Nantes",
+    "Date de livraison": "2010-XX-XX",
+    Maitrise_douvrage: "Nantes Métropole",
+    Categorie: "Projets urbains",
+    ref: "nantes_tripode.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_tripode/pic1.jpg",
+  },
+
+ "Quai Mitterrand": {
+    Ville: "Nantes",
+    "Date de livraison": "2005-XX-XX",
+    Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Projets urbains",
     ref: "nantes_mitterrand.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./nantes_mitterrand/B62Y7547_vignette.jpg",
+    miniature: "./nantes_mitterrand/pic1.jpg",
   },
   
   "Parc des chantiers": {
