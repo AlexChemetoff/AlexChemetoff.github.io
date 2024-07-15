@@ -222,13 +222,13 @@
   }
 
   .xzoom-source img{
-    max-width: 160px;
+    max-width: 400px;
   }
   .xzoom { 
-    max-width: 160px;
+    max-width: 400px;
   }
   .titled_image p {
-    max-width: 160px;
+    max-width: 400px;
     font-size: 0.95rem;
    }
 }
