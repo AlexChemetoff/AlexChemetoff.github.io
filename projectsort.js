@@ -15,6 +15,36 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "villa des Mariniers": {
+    Ville: "Paris",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "RIVP (Régie immobilière de la Ville de Paris)",
+    Categorie: "Habitats",
+    ref: "paris_villadesmariniers.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./paris_villadesmariniers/pic1.jpg",
+  },
+
+  "Cinéma": {
+    Ville: "Paris",
+    "Date de livraison": "2011-XX-XX",
+    Maitrise_douvrage: "UGC",
+    Categorie: "Activités",
+    ref: "paris_cinema.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./paris_cinema/pic1.jpg",
+  },
+
+  "Place de la République": {
+    Ville: "Paris",
+    "Date de livraison": "2009-XX-XX",
+    Maitrise_douvrage: "Ville de Paris",
+    Categorie: "Projets urbains",
+    ref: "paris_placerepublique.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./paris_placerepublique/pic1.jpg",
+  },
+
   "Gare de l'Etat": {
     Ville: "Nantes",
     "Date de livraison": "2001-XX-XX",
