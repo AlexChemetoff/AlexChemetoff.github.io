@@ -181,7 +181,7 @@ var projetsParNoms = {
   },
 
 
-  "Tilleul-Argenté & Cèdre-Bleu": {
+  "Cèdre-Bleu & Tilleul-Argenté": {
     Ville: "Nancy",
     "Date de livraison": "en cours",
     Maitrise_douvrage: "OPH du Grand Nancy",
