@@ -15,7 +15,6 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
-<<<<<<< HEAD
  "Mitterrand": {
     Ville: "Nantes",
     "Date de livraison": "2000-XX-XX",
@@ -26,7 +25,6 @@ var projetsParNoms = {
     miniature: "./nantes_mitterrand/B62Y7547_vignette.jpg",
   },
   
-=======
   "Parc des chantiers": {
     Ville: "Nantes",
     "Date de livraison": "2009-XX-XX",
@@ -38,7 +36,6 @@ var projetsParNoms = {
   },
 
 
->>>>>>> c3a3e2fd4c09f17cf13641b0c8d10677eb615d79
   "Constructions Paris 10": {
     Ville: "Paris",
     "Date de livraison": "2016-XX-XX",
