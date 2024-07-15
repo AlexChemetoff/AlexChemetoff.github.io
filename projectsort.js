@@ -15,7 +15,27 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
-  "villa des Mariniers": {
+  "Jardin de l'ambassade de France": {
+    Ville: "New Delhi",
+    "Date de livraison": "1986-XX-XX",
+    Maitrise_douvrage: "-",
+    Categorie: "Rues et jardins",
+    ref: "newdelhi.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./newdelhi/pic1.jpg",
+  },
+
+  "Boulevard Exelmans": {
+    Ville: "Paris",
+    "Date de livraison": "2017-XX-XX",
+    Maitrise_douvrage: "Paris Habitat OPH",
+    Categorie: "Habitats",
+    ref: "paris_blvexelmans.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./paris_blvexelmans/pic1.jpg",
+  },
+
+  "Villa des Mariniers": {
     Ville: "Paris",
     "Date de livraison": "2011-XX-XX",
     Maitrise_douvrage: "RIVP (Régie immobilière de la Ville de Paris)",
