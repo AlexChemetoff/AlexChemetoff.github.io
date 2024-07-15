@@ -16,6 +16,17 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Alstom Bergeron": {
+    Ville: "Nantes",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "-",
+    Maitrise_douvrage: "Quartus",
+    Categorie: "Habitats",
+    ref: "nantes_alstom.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_alstom/pic1.jpg",
+  },
+
   "Jardin de l'ambassade de France": {
     Ville: "New Delhi",
     "Date de livraison": "1986-XX-XX",
