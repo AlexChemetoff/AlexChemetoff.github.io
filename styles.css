@@ -124,6 +124,7 @@
 }
 
 @media screen and (max-width: 960px) {
+
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -220,7 +221,48 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+@media screen and (max-width: 480px){
 
+#navbar__logo {
+  font-size: 1.7rem;
+}
+#navbar__sublogo {
+  font-size: 12px;
+}
+
+.navbar__menu {
+  height: 40vh;
+}
+
+.navbar__menu.active {
+  height: 40vh;
+
+}
+
+
+.navbar__toggle .bar {
+  width: 18px;
+  height: 2.2px;
+  margin: 4px auto;
+}
+
+#mobile-menu {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  transform: translate(5%, 30%);
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
+  transform: translateY(4.5px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+
+}
 /* Main Content CSS */
 .main {
   background-color: #fff;
@@ -374,6 +416,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 0;
+    padding:25px;
   }
 
   .main__img--container {
@@ -769,6 +812,10 @@ flex-direction: column;
   padding-left: 75px;
 }
 
+.controls #search {
+  width:250px;
+}
+
 .projet {
   position: relative;
   width: 100%;
@@ -850,6 +897,19 @@ flex-direction: column;
   .controls {
     padding-right: 50px;
     padding-left: 50px;
+    font-size: 0.9rem;
+  }
+
+  .controls #sort {
+    font-size: 0.75rem;
+  }
+
+  .controls #search {
+    font-size: 0.75rem;
+  }
+
+  .controls #filter {
+    font-size: 0.75rem;
   }
 
 
@@ -864,6 +924,27 @@ flex-direction: column;
 
 }
 
+@media screen and (max-width: 720px){
+  .controls {
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+
+  .controls #sort {
+    font-size: 0.7rem;
+  }
+
+  .controls #search {
+    font-size: 0.7rem;
+  }
+
+  .controls #filter {
+    font-size: 0.7rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .liste_projets {
     grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
@@ -871,12 +952,27 @@ flex-direction: column;
   }
 
   .controls {
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 0.75rem;
+  }
+  .controls #sort {
+    font-size: 0.65rem;
+  }
+
+  .controls #search {
+    font-size: 0.65rem;
+  }
+
+  .controls #filter {
+    font-size: 0.65rem;
   }
 
   .projet {
     max-width: 280px;
+  }
+
+  .projet p {
+    color: #000;
+    font-size: 10px;
   }
 
 /*
