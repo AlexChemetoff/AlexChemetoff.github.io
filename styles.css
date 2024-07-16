@@ -1201,7 +1201,13 @@ img {
   padding: 0;
 }
 
-
+.employee-card a {
+  text-decoration: none;
+  color:inherit;
+}
+.employee-card a:hover {
+  cursor:text;
+}
 
 .employee-card ul li {
 
