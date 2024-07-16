@@ -16,6 +16,40 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+"Site de la Virgule": {
+    Ville: "Strasbourg",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2019-XX-XX",
+    Maitrise_douvrage: "SPL Deux Rives",
+    Categorie: "Projets urbains",
+    ref: "strasbourg_sitevirgule.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./strasbourg_sitevirgule/pic1.jpg",
+  },
+
+  
+  "Cave à vins": {
+    Ville: "Strasbourg",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2021-XX-XX",
+    Maitrise_douvrage: "SPL Deux Rives",
+    Categorie: "Projets urbains",
+    ref: "strasbourg_cave.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./strasbourg_cave/pic1.jpg",
+  },
+
+  "Village Laverny": {
+    Ville: "Nancy",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2018-XX-XX",
+    Maitrise_douvrage: "Le Nid",
+    Categorie: "Habitats",
+    ref: "nancy_laverny.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_laverny/pic1.JPG",
+  },
+
   "Promenade du Paillon": {
     Ville: "Nice",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
@@ -540,7 +574,7 @@ var projetsParNoms = {
     miniature: "./lyon_blv/l1.jpg",
   },
 
-  "Les terrasses de La presqu’îLe": {
+  "Les terrasses de la presqu’île": {
     Ville: "Lyon",
     "Date de livraison": "2013-XX-XX",
     Maitrise_douvrage: " Communauté Urbaine de Lyon",
