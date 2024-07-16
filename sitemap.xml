@@ -1,12 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+      xmlns="http://sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://sitemaps.org/schemas/sitemap/0.9
+            http://sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator xml-sitemaps.com -->
 
 
+<url>
+  <loc>https://alexandre-chemetoff.com/</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/projets.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/editions.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/equipe.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/conferences.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/presse.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/allones.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/angouleme.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/arcueil.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/bagneuxb.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/begles.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/blanquefort_ferme.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/blanquefortlariv.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/bordeaux_urbain.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/boulogne.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/bourges.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/bruxelles.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/chaumontsurloire.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/clermont_ferrand_site_industriel.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/gentilly.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/grenoble_cv.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/grenoble_parc.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/lacourneuve_mds.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/lacourneuve_stade.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/laroche.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/lehavre.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/lyon_blv.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/lyon_presqueile.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/marnegondoire.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/montrouge.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/morins.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_deuxrives.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_ecuries.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_jardineau.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_mediaparc.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_plateau_guideplan.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_rives.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nancy_tilleul.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nanterre.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_blvgdg.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_cales.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_centrecom.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_ilotsgeneral.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_mitterand.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_nefsloire.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_parcdeschantiers.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/nantes_square.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/orly.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/paris_denfert.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/paris10.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/peynier.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/rennes_ecole.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/rennes_vilaine.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/risorangis.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/rouen.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/rungis.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/sgb_canal.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/sgb_maisons.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/st_etienne_ecole.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/st_etienne_manufacture.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/thietreville.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/vallee_bievre.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/vannes.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/vauhallan.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/VB_Parc_Habite.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/versailles_potager.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
+<url>
+  <loc>https://alexandre-chemetoff.com/liste_projets/villejuif.html</loc>
+  <lastmod>2024-07-15T08:05:17+00:00</lastmod>
+  <priority>0.36</priority>
+</url>
 <url>
   <loc>https://www.alexandre-chemetoff.com/</loc>
   <lastmod>2024-07-15T08:05:17+00:00</lastmod>
@@ -343,6 +679,7 @@
   <lastmod>2024-07-15T08:05:17+00:00</lastmod>
   <priority>0.36</priority>
 </url>
+
 
 
 
