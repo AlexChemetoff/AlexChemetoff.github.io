@@ -16,6 +16,40 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Site de la COOP": {
+    Ville: "Strasbourg",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2018",
+    Maitrise_douvrage: "SPL Deux Rives",
+    Categorie: "Projets urbains",
+    ref: "strasbourg_siteCOOP.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./strasbourg_siteCOOP/pic1.jpg",
+  },
+
+
+"Union sociale": {
+    Ville: "Strasbourg",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2021",
+    Maitrise_douvrage: "SPL Deux Rives",
+    Categorie: "Projets urbains",
+    ref: "strasbourg_union.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./strasbourg_union/pic1.jpg",
+  },
+
+"Parc de la COOP": {
+    Ville: "Strasbourg",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "-",
+    Maitrise_douvrage: "SPL Deux Rives",
+    Categorie: "Projets urbains",
+    ref: "strasbourg_parc_COOP.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./strasbourg_parc_COOP/pic1.JPG",
+  },
+
 "Site de la Virgule": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
