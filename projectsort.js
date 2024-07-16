@@ -70,7 +70,7 @@ var projetsParNoms = {
     Categorie: "Projets urbains",
     ref: "strasbourg_cave.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./strasbourg_cave/pic1.jpg",
+    miniature: "./strasbourg_cave/pic1.JPG",
   },
 
   "Village Laverny": {
