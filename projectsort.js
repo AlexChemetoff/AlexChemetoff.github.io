@@ -16,6 +16,17 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "Promenade du Paillon": {
+    Ville: "Nice",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "-",
+    Maitrise_douvrage: "Ville de Nice",
+    Categorie: "Rues et jardins",
+    ref: "nice_paillon.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nice_paillon/pic1.jpg",
+  },
+
   "L'Octroi": {
     Ville: "Nancy",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
@@ -46,7 +57,7 @@ var projetsParNoms = {
     Categorie: "Habitats",
     ref: "nantes_bamboo.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./nantes_bamboo/pic1.jpg",
+    miniature: "./nantes_bamboo/pic1.JPG",
   },
 
   "Îlot MA1 Malakoff": {
