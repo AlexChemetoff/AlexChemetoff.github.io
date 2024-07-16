@@ -2,5 +2,10 @@ User-agent: *
 Allow: /projets.html
 Allow: /editions.html
 Allow: /equipe.html
+Disallow: /site
+Disallow: /agence
+Disallow: /ville
+Disallow: /contact
+Disallow: /presse
 
 Sitemap: https://www.alexandre-chemetoff.com/sitemap.xml
