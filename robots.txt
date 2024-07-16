@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /projets.html
+Allow: /editions.html
+Allow: /equipe.html
+
+Sitemap: https://www.alexandre-chemetoff.com/sitemap.xml
