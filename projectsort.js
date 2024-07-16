@@ -16,6 +16,61 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+  "L'Octroi": {
+    Ville: "Nancy",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2021-XX-XX",
+    Maitrise_douvrage: "Solorem",
+    Categorie: "Activités",
+    ref: "nancy_octroi.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_octroi/pic1.jpg",
+  },
+
+  "Le jardin Florentin": {
+    Ville: "Nancy",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2022-XX-XX",
+    Maitrise_douvrage: "SAS 3B",
+    Categorie: "Rues et jardins",
+    ref: "nancy_florentin.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nancy_florentin/pic1.jpg",
+  },
+
+  "Bamboo": {
+    Ville: "Nantes",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2023-XX-XX",
+    Maitrise_douvrage: "OCDL - groupe Giboire",
+    Categorie: "Habitats",
+    ref: "nantes_bamboo.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_bamboo/pic1.jpg",
+  },
+
+  "Îlot MA1 Malakoff": {
+    Ville: "Nantes",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "-",
+    Maitrise_douvrage: "Cogedim",
+    Categorie: "Habitats",
+    ref: "nantes_malakoff.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_malakoff/pic1.jpg",
+  },
+
+  "Alstom Bergeron": {
+    Ville: "Nantes",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "-",
+    Maitrise_douvrage: "Quartus",
+    Categorie: "Habitats",
+    ref: "nantes_alstom.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nantes_alstom/pic1.jpg",
+  },
+
   "Jardin de l'ambassade de France": {
     Ville: "New Delhi",
     "Date de livraison": "1986-XX-XX",
