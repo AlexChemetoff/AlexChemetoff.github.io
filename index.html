@@ -27,10 +27,31 @@
     <div class="mainhome_title"><br />Alexandre Chemetoff</div>
     <a  href="./projets.html"><button class="main_btnhome" data="bureau des paysages"></button></a>
     <div class="mainhome__img--container">
-      <img id="mainhome__img" src="liste_projets/images_projet/lehavre/l4.jpg" />
+      <img id="mainhome__img" />
     </div>
 
   </div>
+  <script>
+    (function(){
+    
+      var images = [
+        "liste_projets/images_projet/lehavre/l4.jpg",
+        "liste_projets/images_projet/nancy_rives/n2.jpg",
+        "liste_projets/images_projet/lehavre/l3.jpg",
+        "liste_projets/images_projet/lehavre/l1.jpg"
+      ];
+    
+      var imgCount = images.length;
+    
+      var randNumber=Math.floor((Math.random() * imgCount) + 1);
+    
+      imgURL = "url('" + images[randNumber-1] + "')";
+    
+      var body=document.getElementById('mainhome__img');
+      body.style.backgroundImage=imgURL;
+
+    }());
+    </script>
   <script src="app.js"></script>
 </body>
 
