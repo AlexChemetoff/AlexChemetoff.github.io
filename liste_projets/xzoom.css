@@ -39,6 +39,11 @@
   padding-left: 50px;
 }
 
+.xzoom-container p {
+  color:#fff;
+  cursor:default;
+}
+
 .xzoom-thumbs {
   text-align: center;
   margin-bottom: 10px;

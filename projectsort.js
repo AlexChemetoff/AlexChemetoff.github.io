@@ -845,7 +845,7 @@ var ProjectArray = Object.keys(projetsParNoms).map(function (v) {
   return $.extend({ Nom: v }, projetsParNoms[v]);
 });
 
-display(ProjectArray); /*Display All ProjectArray data */
+
 
 function sorting(ProjData, SearchString = "", SortBy) {
   switch (SortBy) {
@@ -867,6 +867,7 @@ function sorting(ProjData, SearchString = "", SortBy) {
           b["Date de livraison"]
         ); /*Sort By Date de livraison*/
       });
+      ProjData.reverse();
       break;
 
     default:
@@ -963,6 +964,8 @@ function display(Data) {
   }
   $("#liste_projets").html(html);
 }
+searching();
+display(ProjectArray); /*Display All ProjectArray data */
 
 $("#search").keyup(function () {
   /*Live Search, When Pressing any Keys*/ searching();

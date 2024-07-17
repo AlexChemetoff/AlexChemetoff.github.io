@@ -35,7 +35,7 @@
 }
 
 #navbar__logo {
-  background-color: #fef0efc9;
+  background-color: #000000;
   background-image: linear-gradient(to top, #201f1f5b 0%, #a49f9fb7 100%);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -50,7 +50,7 @@
 }
 
 #navbar__sublogo {
-  background-color: #fef0efc9;
+  background-color: #000000;
   background-image: linear-gradient(to top, #201f1f5b 0%, #a49f9fb7 100%);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -335,6 +335,8 @@
   font-size: 1.2rem;
 
   color: #000;
+
+  text-align: justify;
 }
 
 .main__content article a {
@@ -443,7 +445,7 @@
   .main__content p {
     margin-top: 6px;
     font-size: 1rem;
-    text-align: left;
+    text-align: justify;
 
   }
 
@@ -797,7 +799,7 @@ flex-direction: column;
 .controls {
   width: 100%;
 
-  padding-top:25px;
+  padding-top:30px;
 
   background: #fff;
   display: flex;
@@ -808,8 +810,8 @@ flex-direction: column;
   background-color: #fff;
   z-index: 1;
 
-  padding-right: 75px;
-  padding-left: 75px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .controls #search {
@@ -888,6 +890,72 @@ flex-direction: column;
 
 }
 
+
+
+.input-container {
+  position: relative;
+
+  width:250px;
+
+  
+}
+
+.input-container input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 2px 0;
+
+  background-color: transparent;
+  outline: none;
+
+}
+
+.input-container .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.input-container input[type="text"]:focus ~ .label,
+.input-container input[type="text"]:valid ~ .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-container .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.input-container input[type="text"]:focus ~ .underline,
+.input-container input[type="text"]:valid ~ .underline {
+  transform: scaleX(1);
+}
+
+.controls .control {
+  color:#ccc;
+}
+
+.controls #sort {
+  color:#bbb;
+}
+
+.controls #filter {
+  color:#bbb;
+}
+
 @media screen and (max-width: 960px) {
   .liste_projets {
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
@@ -895,8 +963,8 @@ flex-direction: column;
   }
 
   .controls {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
     font-size: 0.9rem;
   }
 
@@ -926,8 +994,7 @@ flex-direction: column;
 
 @media screen and (max-width: 720px){
   .controls {
-    padding-right: 20px;
-    padding-left: 20px;
+
     flex-direction: column;
     font-size: 0.8rem;
   }
@@ -1008,6 +1075,10 @@ flex-direction: column;
   width: 100%;
 }
 
+.project__content p {
+  text-align: justify;
+}
+
 .project__content h1 {
   padding-bottom: 20px;
 }
@@ -1058,6 +1129,10 @@ img {
 
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  opacity:0.8;
 }
 
 .card img {

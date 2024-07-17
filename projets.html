@@ -41,15 +41,17 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <div class="controls">
-        <div class="control">Rechercher:
-            <input type="text" placeholder="nom, date, ville, maitrise d'ouvrage..." id="search" />
-        </div>
+
+        <div class="input-container">
+            <input type="text" id="search" required="">
+            <label for="search" class="label">Rechercher</label>
+            <div class="underline"></div>
+          </div>
         <div class="control">Trier:
             <select id="sort">
-                <option value="Défaut">Défaut</option>
+                <option value="Date de livraison" selected>Date de livraison</option>
                 <option value="Nom">Nom</option>
                 <option value="Ville">Ville</option>
-                <option value="Date de livraison">Date de livraison</option>
             </select>
         </div>
         <div class="control">Filtrer:
