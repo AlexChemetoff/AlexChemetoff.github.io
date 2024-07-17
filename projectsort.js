@@ -19,7 +19,7 @@ var projetsParNoms = {
   "Site de la COOP": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2018",
+    "Date de livraison": "2018-XX-XX",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_siteCOOP.html",
@@ -31,7 +31,7 @@ var projetsParNoms = {
 "Union sociale": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2021",
+    "Date de livraison": "2021-XX-XX",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_union.html",
@@ -42,7 +42,7 @@ var projetsParNoms = {
 "Parc de la COOP": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "-",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_parc_COOP.html",
@@ -87,7 +87,7 @@ var projetsParNoms = {
   "Promenade du Paillon": {
     Ville: "Nice",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "-",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "Ville de Nice",
     Categorie: "Rues et jardins",
     ref: "nice_paillon.html",
@@ -131,7 +131,7 @@ var projetsParNoms = {
   "Îlot MA1 Malakoff": {
     Ville: "Nantes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "-",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "Cogedim",
     Categorie: "Habitats",
     ref: "nantes_malakoff.html",
@@ -142,7 +142,7 @@ var projetsParNoms = {
   "Alstom Bergeron": {
     Ville: "Nantes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "-",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "Quartus",
     Categorie: "Habitats",
     ref: "nantes_alstom.html",
