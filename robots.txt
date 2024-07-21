@@ -6,6 +6,6 @@ Allow: /equipe.html
 Disallow: /agence
 Disallow: /ville
 Disallow: /contact
-Disallow: /presse
+
 
 Sitemap: https://www.alexandre-chemetoff.com/sitemap.xml
