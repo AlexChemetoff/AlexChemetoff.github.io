@@ -8,7 +8,7 @@ var projetsParNoms = {
   "NomProjet": {
     Ville: "NomVille",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2000-XX-XX",
+    "Date de livraison": "2000",
     Maitrise_douvrage: "Client",
     Categorie: "EcrireCategorie",
     ref: "projet_template.html",
@@ -19,7 +19,7 @@ var projetsParNoms = {
   "Site de la COOP": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2018-XX-XX",
+    "Date de livraison": "2018",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_siteCOOP.html",
@@ -31,7 +31,7 @@ var projetsParNoms = {
 "Union sociale": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2021-XX-XX",
+    "Date de livraison": "2021",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_union.html",
@@ -42,7 +42,7 @@ var projetsParNoms = {
 "Parc de la COOP": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "en cours",
+    "Date de livraison": "2024",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_parc_COOP.html",
@@ -53,7 +53,7 @@ var projetsParNoms = {
 "Site de la Virgule": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2019-XX-XX",
+    "Date de livraison": "2019",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_sitevirgule.html",
@@ -65,7 +65,7 @@ var projetsParNoms = {
   "Cave à vins": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2021-XX-XX",
+    "Date de livraison": "2021",
     Maitrise_douvrage: "SPL Deux Rives",
     Categorie: "Projets urbains",
     ref: "strasbourg_cave.html",
@@ -76,7 +76,7 @@ var projetsParNoms = {
   "Village Laverny": {
     Ville: "Nancy",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2018-XX-XX",
+    "Date de livraison": "2018",
     Maitrise_douvrage: "Le Nid",
     Categorie: "Habitats",
     ref: "nancy_laverny.html",
@@ -98,7 +98,7 @@ var projetsParNoms = {
   "L'Octroi": {
     Ville: "Nancy",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2021-XX-XX",
+    "Date de livraison": "2021",
     Maitrise_douvrage: "Solorem",
     Categorie: "Activités",
     ref: "nancy_octroi.html",
@@ -109,7 +109,7 @@ var projetsParNoms = {
   "Le jardin Florentin": {
     Ville: "Nancy",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2022-XX-XX",
+    "Date de livraison": "2022",
     Maitrise_douvrage: "SAS 3B",
     Categorie: "Rues et jardins",
     ref: "nancy_florentin.html",
@@ -120,7 +120,7 @@ var projetsParNoms = {
   "Bamboo": {
     Ville: "Nantes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2023-XX-XX",
+    "Date de livraison": "2023",
     Maitrise_douvrage: "OCDL - groupe Giboire",
     Categorie: "Habitats",
     ref: "nantes_bamboo.html",
@@ -131,7 +131,7 @@ var projetsParNoms = {
   "Îlot MA1 Malakoff": {
     Ville: "Nantes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "en cours",
+    "Date de livraison": "2023",
     Maitrise_douvrage: "Cogedim",
     Categorie: "Habitats",
     ref: "nantes_malakoff.html",
@@ -142,9 +142,9 @@ var projetsParNoms = {
   "Alstom Bergeron": {
     Ville: "Nantes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "en cours",
+    "Date de livraison": "2025",
     Maitrise_douvrage: "Quartus",
-    Categorie: "Habitats",
+    Categorie: "Activités",
     ref: "nantes_alstom.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nantes_alstom/pic1.jpg",
@@ -152,7 +152,7 @@ var projetsParNoms = {
 
   "Jardin de l'ambassade de France": {
     Ville: "New Delhi",
-    "Date de livraison": "1986-XX-XX",
+    "Date de livraison": "1986",
     Maitrise_douvrage: "-",
     Categorie: "Rues et jardins",
     ref: "newdelhi.html",
@@ -162,7 +162,7 @@ var projetsParNoms = {
 
   "Boulevard Exelmans": {
     Ville: "Paris",
-    "Date de livraison": "en cours",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "Paris Habitat OPH",
     Categorie: "Habitats",
     ref: "paris_blvexelmans.html",
@@ -172,7 +172,7 @@ var projetsParNoms = {
 
   "Villa des Mariniers": {
     Ville: "Paris",
-    "Date de livraison": "en cours",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "RIVP (Régie immobilière de la Ville de Paris)",
     Categorie: "Habitats",
     ref: "paris_villadesmariniers.html",
@@ -182,7 +182,7 @@ var projetsParNoms = {
 
   "Cinéma": {
     Ville: "Paris",
-    "Date de livraison": "en cours",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "UGC",
     Categorie: "Activités",
     ref: "paris_cinema.html",
@@ -192,7 +192,7 @@ var projetsParNoms = {
 
   "Place de la République": {
     Ville: "Paris",
-    "Date de livraison": "en cours",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "Ville de Paris",
     Categorie: "Projets urbains",
     ref: "paris_placerepublique.html",
@@ -202,7 +202,7 @@ var projetsParNoms = {
 
   "Gare de l'Etat": {
     Ville: "Nantes",
-    "Date de livraison": "2001-XX-XX",
+    "Date de livraison": "2001",
     Maitrise_douvrage: "Communauté Urbaine de Nantes",
     Categorie: "Projets urbains",
     ref: "nantes_gare.html",
@@ -212,7 +212,7 @@ var projetsParNoms = {
 
   "Quartier du Tripode": {
     Ville: "Nantes",
-    "Date de livraison": "2010-XX-XX",
+    "Date de livraison": "2010",
     Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Projets urbains",
     ref: "nantes_tripode.html",
@@ -222,7 +222,7 @@ var projetsParNoms = {
 
  "Quai Mitterrand": {
     Ville: "Nantes",
-    "Date de livraison": "2005-XX-XX",
+    "Date de livraison": "2005",
     Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Projets urbains",
     ref: "nantes_mitterrand.html",
@@ -232,7 +232,7 @@ var projetsParNoms = {
   
   "Parc des chantiers": {
     Ville: "Nantes",
-    "Date de livraison": "2009-XX-XX",
+    "Date de livraison": "2009",
     Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Projets Urbains",
     ref: "nantes_parcdeschantiers.html",
@@ -241,9 +241,9 @@ var projetsParNoms = {
   },
 
 
-  "Constructions Paris 10": {
+  "Bichat-Temple": {
     Ville: "Paris",
-    "Date de livraison": "2016-XX-XX",
+    "Date de livraison": "2016",
     Maitrise_douvrage: "Paris Habitat - OPH",
     Categorie: "Habitats",
     ref: "paris10.html",
@@ -265,7 +265,7 @@ var projetsParNoms = {
 
   "Nefs de la Loire": {
     Ville: "Nantes",
-    "Date de livraison": "2007-XX-XX",
+    "Date de livraison": "2007",
     Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Projets Urbains",
     ref: "nantes_nefsloire.html",
@@ -275,7 +275,7 @@ var projetsParNoms = {
 
   "Square de l'île Mabon": {
     Ville: "Nantes",
-    "Date de livraison": "2005-XX-XX",
+    "Date de livraison": "2005",
     Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Rues et jardins",
     ref: "nantes_square.html",
@@ -285,7 +285,7 @@ var projetsParNoms = {
 
   "Îlots": {
     Ville: "Nantes",
-    "Date de livraison": "2011-XX-XX",
+    "Date de livraison": "2011",
     Maitrise_douvrage: "Nantes Métropole",
     Categorie: "Projets urbains",
     ref: "nantes_ilotsgeneral.html",
@@ -327,7 +327,7 @@ var projetsParNoms = {
 
   "Abords du centre commercial": {
     Ville: "Nantes",
-    "Date de livraison": "2007-XX-XX",
+    "Date de livraison": "2007",
     Maitrise_douvrage: " Nantes Métropole",
     Categorie: "Projets urbains",
     ref: "nantes_centrecom.html",
@@ -337,7 +337,7 @@ var projetsParNoms = {
 
   "Cales": {
     Ville: "Nantes",
-    "Date de livraison": "2009-XX-XX",
+    "Date de livraison": "2009",
     Maitrise_douvrage: " SAMOA (SEM)",
     Categorie: "Projets urbains",
     ref: "nantes_cales.html",
@@ -347,7 +347,7 @@ var projetsParNoms = {
 
   "Boulevard du Général De Gaulle": {
     Ville: "Nantes",
-    "Date de livraison": "2007-XX-XX",
+    "Date de livraison": "2007",
     Maitrise_douvrage: " Nantes Métropole",
     Categorie: "Projets urbains",
     ref: "nantes_blvgdg.html",
@@ -357,7 +357,7 @@ var projetsParNoms = {
 
   "Une école dans la manufacture": {
     Ville: "Saint-Etienne",
-    "Date de livraison": "2014-XX-XX",
+    "Date de livraison": "2014",
     Maitrise_douvrage: " Etablissement public d'aménagement de Saint-Etienne (EPASE)",
     Categorie: "Activités",
     ref: "st_etienne_ecole.html",
@@ -367,7 +367,7 @@ var projetsParNoms = {
 
   "Manufacture": {
     Ville: "Saint-Etienne",
-    "Date de livraison": "2013-XX-XX",
+    "Date de livraison": "2013",
     Maitrise_douvrage: " Etablissement public d'aménagement de Saint-Etienne (EPASE)",
     Categorie: "Activités",
     ref: "st_etienne_manufacture.html",
@@ -378,7 +378,7 @@ var projetsParNoms = {
 
   "Une école de plein-air": {
     Ville: "Rennes",
-    "Date de livraison": "2012-XX-XX",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "Ville de Rennes, Archipel Habitat",
     Categorie: "Habitats",
     ref: "rennes_ecole.html",
@@ -389,7 +389,7 @@ var projetsParNoms = {
 
   "Les bords de Vilaine": {
     Ville: "Rennes",
-    "Date de livraison": "1991-XX-XX",
+    "Date de livraison": "1991",
     Maitrise_douvrage: "Territoires (SEM)",
     Categorie: "Habitats",
     ref: "rennes_vilaine.html",
@@ -399,7 +399,7 @@ var projetsParNoms = {
 
   "Zac du canal des Aunettes": {
     Ville: "Sainte Geneviève Des Bois",
-    "Date de livraison": "2005-XX-XX",
+    "Date de livraison": "2005",
     Maitrise_douvrage: "  Ville de Sainte-Geneviève-des-Bois",
     Categorie: "Projets urbains",
     ref: "sgb_canal.html",
@@ -409,7 +409,7 @@ var projetsParNoms = {
 
   "21 maisons individuelles": {
     Ville: "Sainte Geneviève Des Bois",
-    "Date de livraison": "2004-XX-XX",
+    "Date de livraison": "2004",
     Maitrise_douvrage: " Expansiel (SEM)",
     Categorie: "Habitats",
     ref: "sgb_maisons.html",
@@ -419,7 +419,7 @@ var projetsParNoms = {
 
   "Rouen": {
     Ville: "Rouen",
-    "Date de livraison": "2011-XX-XX",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: " Ville de Rouen",
     Categorie: "Projets urbains",
     ref: "rouen.html",
@@ -429,7 +429,7 @@ var projetsParNoms = {
 
   "Rungis": {
     Ville: "Rungis",
-    "Date de livraison": "2014-XX-XX",
+    "Date de livraison": "2014",
     Maitrise_douvrage: " SOGARIS",
     Categorie: "Expositions",
     ref: "rungis.html",
@@ -439,7 +439,7 @@ var projetsParNoms = {
 
   "Place des Savonniers": {
     Ville: "Peynier",
-    "Date de livraison": "2003-XX-XX",
+    "Date de livraison": "2003",
     Maitrise_douvrage: "Commune de Peynier",
     Categorie: "Projets urbains",
     ref: "peynier.html",
@@ -449,7 +449,7 @@ var projetsParNoms = {
 
   "Parc des Saules": {
     Ville: "Orly",
-    "Date de livraison": "1998-XX-XX",
+    "Date de livraison": "1998",
     Maitrise_douvrage: "Opac du Val de Marne",
     Categorie: "Rues et jardins",
     ref: "orly.html",
@@ -459,7 +459,7 @@ var projetsParNoms = {
 
   "Le 'Faisceau'": {
     Ville: "Nanterre",
-    "Date de livraison": "2010-XX-XX",
+    "Date de livraison": "2010",
     Maitrise_douvrage: "EPASA (Etablissement Public de Seine Arche)",
     Categorie: "Projets urbains",
     ref: "nanterre.html",
@@ -469,7 +469,7 @@ var projetsParNoms = {
 
   "Les ateliers du Bras Vert": {
     Ville: "Nancy",
-    "Date de livraison": "2013-XX-XX",
+    "Date de livraison": "2013",
     Maitrise_douvrage: "SOLOREM",
     Categorie: "Activités",
     ref: "nancy_ecuries.html",
@@ -480,7 +480,7 @@ var projetsParNoms = {
 
   "Maison individuelle à Thiétreville": {
     Ville: "Thiétreville",
-    "Date de livraison": "2005-XX-XX",
+    "Date de livraison": "2005",
     Maitrise_douvrage: "Privée",
     Categorie: "Habitats",
     ref: "thietreville.html",
@@ -490,7 +490,7 @@ var projetsParNoms = {
 
   "Vallée de la Bièvre": {
     Ville: "Val-de-Marne",
-    "Date de livraison": "1988-XX-XX",
+    "Date de livraison": "1988",
     Maitrise_douvrage: "Conseil Général du Val-de-Marne",
     Categorie: "Projets urbains",
     ref: "vallee_bievre.html",
@@ -500,7 +500,7 @@ var projetsParNoms = {
 
   "Equipement culturel de Vauhallan": {
     Ville: "Vauhallan",
-    "Date de livraison": "2002-XX-XX",
+    "Date de livraison": "2002",
     Maitrise_douvrage: "Commune de Vauhallan",
     Categorie: "Activités",
     ref: "vauhallan.html",
@@ -510,7 +510,7 @@ var projetsParNoms = {
 
   "Plateau de Haye : Plan Guide": {
     Ville: "Nancy",
-    "Date de livraison": "2015-XX-XX",
+    "Date de livraison": "2015",
     Maitrise_douvrage: "Communauté Urbaine du Grand Nancy, André Rossinot Président",
     Categorie: "Projets urbains",
     ref: "nancy_plateau_guideplan.html",
@@ -520,7 +520,7 @@ var projetsParNoms = {
 
   "Médiaparc": {
     Ville: "Nancy",
-    "Date de livraison": "2007-XX-XX",
+    "Date de livraison": "2007",
     Maitrise_douvrage: "SOCOGIM",
     Categorie: "Projets urbains",
     ref: "nancy_mediaparc.html",
@@ -530,7 +530,7 @@ var projetsParNoms = {
 
   "Les Deux Rives": {
     Ville: "Nancy",
-    "Date de livraison": "2009-XX-XX",
+    "Date de livraison": "2009",
     Maitrise_douvrage: "Bouygues Immobilier",
     Categorie: "Habitats",
     ref: "nancy_deuxrives.html",
@@ -540,7 +540,7 @@ var projetsParNoms = {
 
   "Jardin d'eau": {
     Ville: "Nancy",
-    "Date de livraison": "1996-XX-XX",
+    "Date de livraison": "1996",
     Maitrise_douvrage: "SOLOREM ",
     Categorie: "Rues et jardins",
     ref: "nancy_jardineau.html",
@@ -550,7 +550,7 @@ var projetsParNoms = {
 
   "Les rives de Meurthe": {
     Ville: "Nancy",
-    "Date de livraison": "1989-XX-XX",
+    "Date de livraison": "1989",
     Maitrise_douvrage: "SOLOREM (SEM)",
     Categorie: "Rues et jardins",
     ref: "nancy_rives.html",
@@ -560,7 +560,7 @@ var projetsParNoms = {
 
   "Jardins Schlumberger": {
     Ville: "Montrouge",
-    "Date de livraison": "1985-XX-XX",
+    "Date de livraison": "1985",
     Maitrise_douvrage: "Groupe Schlumberger",
     Categorie: "Rues et jardins",
     ref: "montrouge.html",
@@ -570,7 +570,7 @@ var projetsParNoms = {
 
   "ZHB Villejuif": {
     Ville: "Villejuif",
-    "Date de livraison": "1995-XX-XX",
+    "Date de livraison": "1995",
     Maitrise_douvrage: "SEMASEP",
     Categorie: "Projets urbains",
     ref: "villejuif.html",
@@ -580,7 +580,7 @@ var projetsParNoms = {
 
   "Port de Vannes": {
     Ville: "Vannes",
-    "Date de livraison": "2018-XX-XX",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "Groupe GIBOIRE",
     Categorie: "Projets urbains",
     ref: "vannes.html",
@@ -590,7 +590,7 @@ var projetsParNoms = {
 
   "Marne et Gondoire": {
     Ville: "Marne et Gondoire",
-    "Date de livraison": "2011-XX-XX",
+    "Date de livraison": "2011",
     Maitrise_douvrage: "Communauté d’agglomération de Marne et Gondoire",
     Categorie: "Projets urbains",
     ref: "marnegondoire.html",
@@ -600,7 +600,7 @@ var projetsParNoms = {
 
   "Boulevards de Lyon": {
     Ville: "Lyon",
-    "Date de livraison": "2001-XX-XX",
+    "Date de livraison": "2001",
     Maitrise_douvrage: " Le Grand Lyon Mission Tramway, SERL",
     Categorie: "Projets urbains",
     ref: "lyon_blv.html",
@@ -610,7 +610,7 @@ var projetsParNoms = {
 
   "Les terrasses de la presqu’île": {
     Ville: "Lyon",
-    "Date de livraison": "2013-XX-XX",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: " Communauté Urbaine de Lyon",
     Categorie: "Projets urbains",
     ref: "lyon_presqueile.html",
@@ -620,7 +620,7 @@ var projetsParNoms = {
 
   "La Roche sur Yon": {
     Ville: "La Roche sur Yon",
-    "Date de livraison": "2014-XX-XX",
+    "Date de livraison": "2014",
     Maitrise_douvrage: " Ville de La Roche-sur-Yon",
     Categorie: "Projets urbains",
     ref: "laroche.html",
@@ -630,7 +630,7 @@ var projetsParNoms = {
 
   "Aménagement de la plage": {
     Ville: "Le Havre",
-    "Date de livraison": "1994-XX-XX",
+    "Date de livraison": "1994",
     Maitrise_douvrage: " Ville du Havre, atelier littoral",
     Categorie: "Rues et jardins",
     ref: "lehavre.html",
@@ -640,7 +640,7 @@ var projetsParNoms = {
 
   "Le parc des sports Géo André": {
     Ville: "La Courneuve",
-    "Date de livraison": "2007-XX-XX",
+    "Date de livraison": "2007",
     Maitrise_douvrage: "Ville de La Courneuve",
     Categorie: "Activités",
     ref: "lacourneuve_stade.html",
@@ -651,7 +651,7 @@ var projetsParNoms = {
 
   "Maison des sports de La Courneuve": {
     Ville: "La Courneuve",
-    "Date de livraison": "2006-XX-XX",
+    "Date de livraison": "2006",
     Maitrise_douvrage: "Ville de La Courneuve",
     Categorie: "Activités",
     ref: "lacourneuve_mds.html",
@@ -661,7 +661,7 @@ var projetsParNoms = {
 
   "Espaces publics du centre-ville de Grenoble": {
     Ville: "Grenoble",
-    "Date de livraison": "2013-XX-XX",
+    "Date de livraison": "2013",
     Maitrise_douvrage: "Ville de Grenoble",
     Categorie: "Rues et jardins",
     ref: "grenoble_cv.html",
@@ -669,9 +669,9 @@ var projetsParNoms = {
     miniature: "./grenoble_cv/gcv1.jpg",
   },
 
-  "Aménagements extérieurs Grenoble": {
+  "Parc Paul Mistral": {
     Ville: "Grenoble",
-    "Date de livraison": "2008-XX-XX",
+    "Date de livraison": "2008",
     Maitrise_douvrage: " Ville de Grenoble, Territoires 38 (SEM)",
     Categorie: "Rues et jardins",
     ref: "grenoble_parc.html",
@@ -681,7 +681,7 @@ var projetsParNoms = {
 
   "Festival des jardins": {
     Ville: "Chaumont sur Loire",
-    "Date de livraison": "2008-XX-XX",
+    "Date de livraison": "2008",
     Maitrise_douvrage: "Conservatoire International des Parcs et Jardins et Paysage",
     Categorie: "Rues et jardins",
     ref: "chaumontsurloire.html",
@@ -691,7 +691,7 @@ var projetsParNoms = {
 
   "Kanaalplan": {
     Ville: "Bruxelles",
-    "Date de livraison": "2000-01-01",
+    "Date de livraison": "2000",
     Maitrise_douvrage: "Région de Bruxelles-Capitale, Administration de l’Aménagement du territoire et du Logement",
     Categorie: "Rues et jardins",
     ref: "bruxelles.html",
@@ -701,7 +701,7 @@ var projetsParNoms = {
 
   "Bourges": {
     Ville: "Bourges",
-    "Date de livraison": "2006-XX-XX",
+    "Date de livraison": "Non retenu",
     Maitrise_douvrage: "SEGECE",
     Categorie: "Activités",
     ref: "bourges.html",
@@ -711,7 +711,7 @@ var projetsParNoms = {
 
   "La ferme de Blanquefort": {
     Ville: "Blanquefort",
-    "Date de livraison": "2013-XX-XX",
+    "Date de livraison": "2013",
     Maitrise_douvrage: "SEMI de Blanquefort",
     Categorie: "Activités",
     ref: "blanquefort_ferme.html",
@@ -721,7 +721,7 @@ var projetsParNoms = {
 
   "La Riviere Blanquefort": {
     Ville: "Blanquefort",
-    "Date de livraison": "2009-XX-XX",
+    "Date de livraison": "2009",
     Maitrise_douvrage: "SEMI de Blanquefort",
     Categorie: "Rues et jardins",
     ref: "blanquefortlariv.html",
@@ -731,7 +731,7 @@ var projetsParNoms = {
 
   "Butte de Bagneux ": {
     Ville: "Bagneux",
-    "Date de livraison": "1990-XX-XX",
+    "Date de livraison": "1990",
     Maitrise_douvrage: "Ville de Bagneux",
     Categorie: "Rues et jardins",
     ref: "bagneuxb.html",
@@ -741,7 +741,7 @@ var projetsParNoms = {
 
   "Boulogne": {
     Ville: "Boulogne",
-    "Date de livraison": "2001-XX-XX",
+    "Date de livraison": "2001",
     Maitrise_douvrage: "Ville de Boulogne-Billancourt",
     Categorie: "Projets urbains",
     ref: "boulogne.html",
@@ -753,7 +753,7 @@ var projetsParNoms = {
 
   "Angoulême": {
     Ville: "Angoulême",
-    "Date de livraison": "2007-XX-XX",
+    "Date de livraison": "2007",
     Maitrise_douvrage: "SEGECE (pour le centre commercial, le parking et les logements)",
     Categorie: "Activités",
     ref: "angouleme.html",
@@ -763,7 +763,7 @@ var projetsParNoms = {
 
   "Bègles": {
     Ville: "Bègles",
-    "Date de livraison": "2019-XX-XX",
+    "Date de livraison": "2019",
     Maitrise_douvrage: "EPA Bordeaux Euratlantique",
     Categorie: "Projets urbains",
     ref: "begles.html",
@@ -773,7 +773,7 @@ var projetsParNoms = {
 
   "Arcueil": {
     Ville: "Arcueil",
-    "Date de livraison": "1997-XX-XX",
+    "Date de livraison": "1997",
     Maitrise_douvrage: "SEMASEP",
     Categorie: "Rues et jardins",
     ref: "arcueil.html",
@@ -783,7 +783,7 @@ var projetsParNoms = {
 
   "Bâtiment des Suisses au Potager du Roi": {
     Ville: "Versailles",
-    "Date de livraison": "2019-XX-XX",
+    "Date de livraison": "2019",
     Maitrise_douvrage: "ENS de Paysage de Versailles",
     Categorie: "Activités",
     ref: "versailles_potager.html",
@@ -791,9 +791,9 @@ var projetsParNoms = {
     miniature: "./versailles_potager/Vrs01_Insertion_00.jpg",
   },
 
-  "Les Allonnes": {
+  "Quartier de Chaoué": {
     Ville: "Allonnes",
-    "Date de livraison": "2005-XX-XX",
+    "Date de livraison": "2005",
     Maitrise_douvrage: "Sarthe Habitat, Ville d’Allonnes, Communauté Urbaine du Mans",
     Categorie: "Rues et jardins",
     ref: "allonnes.html",
@@ -801,9 +801,9 @@ var projetsParNoms = {
     miniature: "./allonnes_images/ALLONNES1.JPG",
   },
 
-  "Les Morins": {
+  "Antony les Morins": {
     Ville: "Antony",
-    "Date de livraison": "1982-XX-XX",
+    "Date de livraison": "1982",
     Maitrise_douvrage: "OPHLM Antony ",
     Categorie: "Rues et jardins",
     ref: "morins.html",
@@ -813,7 +813,7 @@ var projetsParNoms = {
 
   "Gentilly": {
     Ville: "Gentilly",
-    "Date de livraison": "1993-01-01",
+    "Date de livraison": "1993",
     Maitrise_douvrage: "bureau des paysages ",
     Categorie: "Projets urbains",
     ref: "gentilly.html",
@@ -822,7 +822,7 @@ var projetsParNoms = {
 
   "Villeurbanne Parc Habité": {
     Ville: "Villeurbanne",
-    "Date de livraison": "2019-07-XX",
+    "Date de livraison": "2019",
     Maitrise_douvrage: "OGIC",
     Categorie: "Projets urbains",
     ref: "VB_Parc_Habite.html",
@@ -831,7 +831,7 @@ var projetsParNoms = {
 
   "Bordeaux Zone Urbaine": {
     Ville: "Bordeaux",
-    "Date de livraison": "2012-01-01",
+    "Date de livraison": "2012",
     Maitrise_douvrage: "CUB",
     Categorie: "Habitats",
     ref: "bordeaux_urbain.html",
