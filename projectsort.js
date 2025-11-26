@@ -78,7 +78,7 @@ var projetsParNoms = {
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
     "Date de livraison": "2018",
     Maitrise_douvrage: "Le Nid",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "nancy_laverny.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nancy_laverny/pic1.JPG",
@@ -120,9 +120,9 @@ var projetsParNoms = {
   "Bamboo": {
     Ville: "Nantes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2023",
+    "Date de livraison": "2024",
     Maitrise_douvrage: "OCDL - groupe Giboire",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "nantes_bamboo.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nantes_bamboo/pic1.JPG",
@@ -133,7 +133,7 @@ var projetsParNoms = {
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
     "Date de livraison": "2023",
     Maitrise_douvrage: "Cogedim",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "nantes_malakoff.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nantes_malakoff/pic1.jpg",
@@ -162,9 +162,9 @@ var projetsParNoms = {
 
   "Boulevard Exelmans": {
     Ville: "Paris",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2017 - Non retenu",
     Maitrise_douvrage: "Paris Habitat OPH",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "paris_blvexelmans.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./paris_blvexelmans/pic1.jpg",
@@ -172,9 +172,9 @@ var projetsParNoms = {
 
   "Villa des Mariniers": {
     Ville: "Paris",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2011 - Non retenu",
     Maitrise_douvrage: "RIVP (Régie immobilière de la Ville de Paris)",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "paris_villadesmariniers.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./paris_villadesmariniers/pic1.jpg",
@@ -182,7 +182,7 @@ var projetsParNoms = {
 
   "Cinéma": {
     Ville: "Paris",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2011 - Non retenu",
     Maitrise_douvrage: "UGC",
     Categorie: "Activités",
     ref: "paris_cinema.html",
@@ -192,7 +192,7 @@ var projetsParNoms = {
 
   "Place de la République": {
     Ville: "Paris",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2009 - Non retenu",
     Maitrise_douvrage: "Ville de Paris",
     Categorie: "Projets urbains",
     ref: "paris_placerepublique.html",
@@ -245,7 +245,7 @@ var projetsParNoms = {
     Ville: "Paris",
     "Date de livraison": "2016",
     Maitrise_douvrage: "Paris Habitat - OPH",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "paris10.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./paris10/pic1.jpg",
@@ -308,7 +308,7 @@ var projetsParNoms = {
     Ville: "Nancy",
     "Date de livraison": "en cours",
     Maitrise_douvrage: "OPH du Grand Nancy",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "nancy_tilleul.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nancy_tilleul/pic1.jpg",
@@ -378,9 +378,9 @@ var projetsParNoms = {
 
   "Une école de plein-air": {
     Ville: "Rennes",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2019 - Non retenu",
     Maitrise_douvrage: "Ville de Rennes, Archipel Habitat",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "rennes_ecole.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./rennes_ecole/pic1.jpg",
@@ -391,7 +391,7 @@ var projetsParNoms = {
     Ville: "Rennes",
     "Date de livraison": "1991",
     Maitrise_douvrage: "Territoires (SEM)",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "rennes_vilaine.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./rennes_vilaine/pic1.jpg",
@@ -411,7 +411,7 @@ var projetsParNoms = {
     Ville: "Sainte Geneviève Des Bois",
     "Date de livraison": "2004",
     Maitrise_douvrage: " Expansiel (SEM)",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "sgb_maisons.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./sgb_maisons/pic1.jpg",
@@ -419,7 +419,7 @@ var projetsParNoms = {
 
   "Rouen": {
     Ville: "Rouen",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2011 - Non retenu",
     Maitrise_douvrage: " Ville de Rouen",
     Categorie: "Projets urbains",
     ref: "rouen.html",
@@ -482,7 +482,7 @@ var projetsParNoms = {
     Ville: "Thiétreville",
     "Date de livraison": "2005",
     Maitrise_douvrage: "Privée",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "thietreville.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./thietreville/pic1.jpg",
@@ -532,7 +532,7 @@ var projetsParNoms = {
     Ville: "Nancy",
     "Date de livraison": "2009",
     Maitrise_douvrage: "Bouygues Immobilier",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "nancy_deuxrives.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nancy_deuxrives/n1.jpg",
@@ -580,7 +580,7 @@ var projetsParNoms = {
 
   "Port de Vannes": {
     Ville: "Vannes",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2018 - Non retenu",
     Maitrise_douvrage: "Groupe GIBOIRE",
     Categorie: "Projets urbains",
     ref: "vannes.html",
@@ -610,7 +610,7 @@ var projetsParNoms = {
 
   "Les terrasses de la presqu’île": {
     Ville: "Lyon",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2013 - Non retenu",
     Maitrise_douvrage: " Communauté Urbaine de Lyon",
     Categorie: "Projets urbains",
     ref: "lyon_presqueile.html",
@@ -701,7 +701,7 @@ var projetsParNoms = {
 
   "Bourges": {
     Ville: "Bourges",
-    "Date de livraison": "Non retenu",
+    "Date de livraison": "2006 - Non retenu",
     Maitrise_douvrage: "SEGECE",
     Categorie: "Activités",
     ref: "bourges.html",
@@ -833,7 +833,7 @@ var projetsParNoms = {
     Ville: "Bordeaux",
     "Date de livraison": "2012",
     Maitrise_douvrage: "CUB",
-    Categorie: "Habitats",
+    Categorie: "Habitat",
     ref: "bordeaux_urbain.html",
     miniature: "bordeaux_urbain/bd1.jpg",
   },
