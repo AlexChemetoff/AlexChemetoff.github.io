@@ -5,6 +5,17 @@
  */
 
 var projetsParNoms = {
+  "Parking des Arts": {
+    Ville: "Nice",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2025",
+    Maitrise_douvrage: "Ville de Nice",
+    Categorie: "Activités",
+    ref: "nice_parking.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nice_parking/pic1.jpg",
+  },
+  
   "NomProjet": {
     Ville: "NomVille",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
@@ -15,7 +26,7 @@ var projetsParNoms = {
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./NomDossierImage/pic1.jpg",
   },
-
+  
   "Site de la COOP": {
     Ville: "Strasbourg",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
