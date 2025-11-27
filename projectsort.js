@@ -814,7 +814,7 @@ var projetsParNoms = {
   "Gentilly": {
     Ville: "Gentilly",
     "Date de livraison": "1993",
-    Maitrise_douvrage: "bureau des paysages ",
+    Maitrise_douvrage: "Bureau des paysages ",
     Categorie: "Projets urbains",
     ref: "gentilly.html",
     miniature: "gentilly/g1.jpg",
