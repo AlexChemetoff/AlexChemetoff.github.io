@@ -713,7 +713,7 @@ var projetsParNoms = {
     Ville: "Blanquefort",
     "Date de livraison": "2013",
     Maitrise_douvrage: "SEMI de Blanquefort",
-    Categorie: "Activités",
+    Categorie: "Habitat",
     ref: "blanquefort_ferme.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./blanquefort_ferme/bf1.jpg",
@@ -761,11 +761,11 @@ var projetsParNoms = {
     miniature: "./angouleme/angouleme1.jpg",
   },
 
-  "Bègles": {
+  "Cité numérique": {
     Ville: "Bègles",
     "Date de livraison": "2019",
     Maitrise_douvrage: "EPA Bordeaux Euratlantique",
-    Categorie: "Projets urbains",
+    Categorie: "Activités",
     ref: "begles.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./begles/begles1.png",
