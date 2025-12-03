@@ -779,7 +779,7 @@ var projetsParNoms = {
     Categorie: "Activités",
     ref: "begles.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./begles/begles1.png",
+    miniature: "./begles/pic1.jpg",
   },
 
   "Arcueil": {
