@@ -831,13 +831,13 @@ var projetsParNoms = {
     miniature: "gentilly/g1.jpg",
   },
 
-  "Villeurbanne Parc Habité": {
+  "Collection - Le Parc Habité": {
     Ville: "Villeurbanne",
     "Date de livraison": "2019",
     Maitrise_douvrage: "OGIC",
-    Categorie: "Projets urbains",
+    Categorie: "Habitat",
     ref: "VB_Parc_Habite.html",
-    miniature: "VB_Parc_Habite/IMG_2958_cropped.jpg",
+    miniature: "VB_Parc_Habite/pic1.jpg",
   },
 
   "Bordeaux Zone Urbaine": {
