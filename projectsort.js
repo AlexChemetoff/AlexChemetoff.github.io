@@ -122,7 +122,7 @@ var projetsParNoms = {
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
     "Date de livraison": "2022",
     Maitrise_douvrage: "SAS 3B",
-    Categorie: "Rues et jardins",
+    Categorie: "Habitat",
     ref: "nancy_florentin.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./nancy_florentin/pic1.jpg",
