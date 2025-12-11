@@ -389,7 +389,7 @@ var projetsParNoms = {
 
   "Une école de plein-air": {
     Ville: "Rennes",
-    "Date de livraison": "2019 - Non retenu",
+    "Date de livraison": "2012 - Non retenu",
     Maitrise_douvrage: "Ville de Rennes, Archipel Habitat",
     Categorie: "Habitat",
     ref: "rennes_ecole.html",
