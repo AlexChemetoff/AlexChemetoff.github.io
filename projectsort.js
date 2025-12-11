@@ -5,6 +5,30 @@
  */
 
 var projetsParNoms = {
+    "NomProjet": {
+    Ville: "NomVille",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2000",
+    Maitrise_douvrage: "Client",
+    Categorie: "EcrireCategorie",
+    ref: "projet_template.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./NomDossierImage/pic1.jpg",
+  },
+
+  
+    "Groupe scolaire Europe Rochester": {
+    Ville: "Rennes",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2019 - Non retenu",
+    Maitrise_douvrage: "Ville de Rennes",
+    Categorie: "Activités",
+    ref: "rennes_rochester.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./rennes_rochester/pic1.jpg",
+  },
+  
+  
   "Parking des Arts": {
     Ville: "Nice",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
@@ -16,16 +40,6 @@ var projetsParNoms = {
     miniature: "./nice_parking/pic1.jpg",
   },
   
-  "NomProjet": {
-    Ville: "NomVille",
-    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2000",
-    Maitrise_douvrage: "Client",
-    Categorie: "EcrireCategorie",
-    ref: "projet_template.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./NomDossierImage/pic1.jpg",
-  },
   
   "Site de la COOP": {
     Ville: "Strasbourg",
