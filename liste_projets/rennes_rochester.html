@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+	  Site created by Ludovic HU
+
+      original "index.html" and "styles.css" based on website by Brian Design on youtube @ www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bureau des paysages</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./xzoom.css" media="all" />
+    <script type="text/javascript" src="./xzoom.js"></script>
+    <!--<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    /> -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic%7CRaleway%3A800&ver=1.0"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../projets.html" id="navbar__logo"><!--<i class="fas fa-gem">--></i>Bureau des paysages</a>
+            <a href="../projets.html" id="navbar__sublogo"><!--<i class="fas fa-gem">--></i>Alexandre Chemetoff</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../projets.html" class="navbar__links">Projets</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../editions.html" class="navbar__links">Éditions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../equipe.html" class="navbar__links">Équipe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="xzoom-container">
+        <div class="titled_image">
+            <p>Survolez l'image et agrandissez/réduisez la vue à l'aide de la molette.</p>
+            <img class="xzoom" src="./images_projet/rennes_rochester/pic1.jpg"
+                xoriginal="./images_projet/rennes_rochester/pic1.jpg" />
+        </div>
+        <div class="xzoom-thumbs">
+            <p>Cliquez sur l'image que vous souhaitez voir.</p>
+            <a href="./images_projet/rennes_rochester/pic1.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/rennes_rochester/pic1.jpg">
+            </a>
+            <a href="./images_projet/rennes_rochester/pic2.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/rennes_rochester/pic2.jpg">
+            </a>
+            <a href="./images_projet/rennes_rochester/pic3.jpg">
+                <img class="xzoom-gallery" width="80" src="./images_projet/rennes_rochester/pic3.jpg">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="project__container">
+        <div class="project__content">
+            <h1><strong> Groupe scolaire Europe Rochester </strong></h1>
+            <p><strong>Budget:</strong> 8,86 M€ </p>
+            <p><strong>Surface:</strong> 3 000m² </p>
+            <p><strong>Date début:</strong> 2019 - Non retenu </p>
+            <p><strong>Date fin:</strong> - </p>
+            <p><strong>Maîtrise d'ouvrage:</strong> Ville de Rennes </p>
+            <p><strong>Co-traitant(s):</strong> - <br /> <br /></p>
+            <p><strong>Description:</strong><br /> <br /> Construire une école comme on fonde une ville
+Pour fonder une ville, on traçait avec une charrue un sillon circulaire qui en définissait la limite, ici le cercle qui décrit le périmètre
+du site. Puis on traçait d’Est en Ouest, le « decumanus maximus », ici l’allée de Maurepas, et le « cardo » Nord-Sud, ici
+le hall commun et le préau du pôle élémentaire, et ensuite les « decumani » secondaires, ici les circulations parallèles à l’allée
+de Maurepas. Comme on le comprend, c’est la géographie du site qui donne à l’école ses règles et ses repères.
+Pour reprendre la formule de Vitruve, on peut dire que l’école est une maison, la maison une petite ville et la ville une grande
+maison. L’école est située dans l’histoire et la géographie. Elle est située en ville, à Rennes et dans le temps présent. </p>
+        </div>
+    </div>
+
+
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--items">
+        <h2>Contact</h2>
+        <a>35, rue Vergniaud</a>
+        <a>75013 Paris</a>
+        <a>T/ +33 (0)1 46 15 86 30</a>
+        <a>bdp@alexandrechemetoff.com</a>
+      </div>
+
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <p class="website__rights">© Bureau des paysages 2024. All rights reserved</p>
+      </div>
+    </section>
+  </div>
+
+    <script src="../app.js"></script>
+    <script>$(".xzoom, .xzoom-gallery").xzoom({ tint: '#333', Xoffset: 10, defaultScale: 0.65 });</script>;
+</body>
+
+</html>
