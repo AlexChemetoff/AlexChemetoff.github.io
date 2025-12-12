@@ -16,7 +16,19 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
-  
+    
+    "La friche du Gabut": {
+    Ville: "La Rochelle",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2019 - Non retenu",
+    Maitrise_douvrage: "Ville de La Rochelle",
+    Categorie: "Activités",
+    ref: "larochelle_gabut.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./larochelle_gabut/pic1.jpg",
+  },
+
+    
     "Groupe scolaire Europe Rochester": {
     Ville: "Rennes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
