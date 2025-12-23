@@ -825,7 +825,7 @@ var projetsParNoms = {
     Categorie: "Activités",
     ref: "versailles_potager.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./versailles_potager/Vrs01_Insertion_00.jpg",
+    miniature: "./versailles_potager/pic1.jpg",
   },
 
   "Quartier de Chaoué": {
