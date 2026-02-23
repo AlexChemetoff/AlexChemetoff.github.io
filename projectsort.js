@@ -16,6 +16,16 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+    "Restructuration de la bibliothèque Louis Nucéra": {
+    Ville: "Nice",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2026",
+    Maitrise_douvrage: "Ville de Nice",
+    Categorie: "Activités",
+    ref: "nice_bmvr.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./nice_bmvr/pic1.jpg",
+  },
     
     "La friche du Gabut": {
     Ville: "La Rochelle",
