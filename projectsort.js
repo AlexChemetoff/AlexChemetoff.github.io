@@ -22,7 +22,7 @@ var projetsParNoms = {
     "Date de livraison": "2025 - Non retenu",
     Maitrise_douvrage: "Groupe Pierreval",
     Categorie: "Habitat",
-    ref: "projet_template.html",
+    ref: "rosny_beauclair.html",
     /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
     miniature: "./rosny_beauclair/pic1.jpg",
   },
