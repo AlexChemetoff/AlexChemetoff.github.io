@@ -16,6 +16,17 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+      "Coteaux Beauclair - Habiter le coteau": {
+    Ville: "Rosny-sous-bois",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2025 - Non retenu",
+    Maitrise_douvrage: "Groupe Pierreval",
+    Categorie: "Habitat",
+    ref: "projet_template.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./rosny_beauclair/pic1.jpg",
+  },
+
     "Restructuration de la bibliothèque Louis Nucéra": {
     Ville: "Nice",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
