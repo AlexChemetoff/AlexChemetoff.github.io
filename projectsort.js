@@ -19,7 +19,7 @@ var projetsParNoms = {
     "Fenêtres sur cours": {
     Ville: "Rennes",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
-    "Date de livraison": "2026",
+    "Date de livraison": "en cours",
     Maitrise_douvrage: "Quartus",
     Categorie: "Habitat",
     ref: "rennes_maurepas.html",
