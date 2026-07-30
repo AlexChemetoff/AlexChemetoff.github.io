@@ -16,6 +16,17 @@ var projetsParNoms = {
     miniature: "./NomDossierImage/pic1.jpg",
   },
 
+    "Fenêtres sur cours": {
+    Ville: "Rennes",
+    /*date en chiffres format "année/mois/jour" OU "en cours" */ 
+    "Date de livraison": "2026",
+    Maitrise_douvrage: "Quartus",
+    Categorie: "Habitat",
+    ref: "rennes_maurepas.html",
+    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
+    miniature: "./rennes_maurepas/pic1.jpg",
+  },
+    
       "Coteaux Beauclair - Habiter le coteau": {
     Ville: "Rosny-sous-bois",
     /*date en chiffres format "année/mois/jour" OU "en cours" */ 
