@@ -362,16 +362,6 @@ var projetsParNoms = {
     miniature: "./nantes_ilotsgeneral/pic1.jpg",
   },
 
-  "Au bord de la Tiretaine": {
-    Ville: "Clermont-Ferrand",
-    "Date de livraison": "en cours",
-    Maitrise_douvrage: "Bouygues Immobilier",
-    Categorie: "Projets urbains",
-    ref: "clermont_ferrand_site_industriel.html",
-    /*miniature avec un rapport 3024(longueur)/1840(hauteur) */
-    miniature: "./clermont_ferrand_site_industriel/pic1.jpg",
-  },
-
 
   "Cèdre-Bleu & Tilleul-Argenté": {
     Ville: "Nancy",
